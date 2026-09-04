@@ -1,0 +1,64 @@
+name: Daily Intelligence Report
+
+on:
+  schedule:
+    # GitHub ActionsのcronはUTCです。21:30 UTC = 翌朝06:30 JST。
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-intelligence-report
+  cancel-in-progress: false
+
+jobs:
+  build-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Generate report
+        run: python src/main.py
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: daily-intelligence-report-${{ github.run_id }}
+          path: |
+            output/
+            data/
+            logs/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Save report history to repository
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history data/processed output logs
+          if git diff --cached --quiet; then
+            echo "No report changes to commit"
+          else
+            git commit -m "chore: add daily intelligence report"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

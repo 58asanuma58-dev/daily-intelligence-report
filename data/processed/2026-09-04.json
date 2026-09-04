@@ -1,0 +1,434 @@
+{
+  "report_date": "2026-09-04",
+  "generated_at": "2026-09-04T13:55:03+09:00",
+  "target_period_hours": 48,
+  "stats": {
+    "raw_articles": 15,
+    "period_excluded": 5,
+    "articles_before_grouping": 10,
+    "story_groups": 10,
+    "duplicates_merged": 0,
+    "source_success": 3,
+    "source_failures": 0
+  },
+  "fetch_errors": [],
+  "articles": [
+    {
+      "id": "7a0ee0ba2f29a685",
+      "title": "【記者会見】高田審議委員（札幌、9月2日分）",
+      "source": "日本銀行",
+      "published_at": "2026-09-03T05:40:00Z",
+      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "19e00a01ccd7",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "【記者会見】高田審議委員（札幌、9月2日分）",
+          "source": "日本銀行",
+          "published_at": "2026-09-03T05:40:00Z",
+          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "277b83add467f87d",
+      "title": "「市場調節に関する意見交換会」の開催について",
+      "source": "日本銀行",
+      "published_at": "2026-09-03T02:00:00Z",
+      "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf",
+      "summary": "",
+      "category": "Financial Markets",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [
+        "市場調節"
+      ],
+      "duplicate_group": "d1a49207ef7f",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "「市場調節に関する意見交換会」の開催について",
+          "source": "日本銀行",
+          "published_at": "2026-09-03T02:00:00Z",
+          "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "2c33974cd86bf390",
+      "title": "日銀当座預金増減要因（9月見込み）",
+      "source": "日本銀行",
+      "published_at": "2026-09-02T23:50:00Z",
+      "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 6,
+      "relevance_score": 0,
+      "keywords": [
+        "日銀"
+      ],
+      "duplicate_group": "7b58f993df4f",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "日銀当座預金増減要因（9月見込み）",
+          "source": "日本銀行",
+          "published_at": "2026-09-02T23:50:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx"
+        }
+      ],
+      "watchlist_topics": [
+        "Central Bank Policy"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "4025477cc062fe93",
+      "title": "日本銀行が保有する国債の銘柄別残高",
+      "source": "日本銀行",
+      "published_at": "2026-09-02T08:00:00Z",
+      "url": "http://www.boj.or.jp/statistics/boj/other/mei/release/2026/mei260831.xlsx",
+      "summary": "",
+      "category": "Financial Markets",
+      "importance_score": 6,
+      "relevance_score": 0,
+      "keywords": [
+        "国債"
+      ],
+      "duplicate_group": "0f6112c82624",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "日本銀行が保有する国債の銘柄別残高",
+          "source": "日本銀行",
+          "published_at": "2026-09-02T08:00:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/other/mei/release/2026/mei260831.xlsx"
+        }
+      ],
+      "watchlist_topics": [
+        "Central Bank Policy",
+        "Financial Markets"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "86ee3ad24a68fc2f",
+      "title": "日本銀行が受入れている担保の残高（8月末）",
+      "source": "日本銀行",
+      "published_at": "2026-09-02T08:00:00Z",
+      "url": "http://www.boj.or.jp/statistics/boj/other/col/col2608.xlsx",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 6,
+      "relevance_score": 0,
+      "keywords": [
+        "日本銀行"
+      ],
+      "duplicate_group": "71b5b120fef5",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "日本銀行が受入れている担保の残高（8月末）",
+          "source": "日本銀行",
+          "published_at": "2026-09-02T08:00:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/other/col/col2608.xlsx"
+        }
+      ],
+      "watchlist_topics": [
+        "Central Bank Policy"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "1d8e244bfa981ad1",
+      "title": "A Trio of Tropical Cyclones in the Pacific",
+      "source": "NASA",
+      "published_at": "2026-09-04T04:01:00Z",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
+      "summary": "The Pacific was buzzing with storms while the Atlantic was notably quiet.",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "30abdf7bf3d5",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "A Trio of Tropical Cyclones in the Pacific",
+          "source": "NASA",
+          "published_at": "2026-09-04T04:01:00Z",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "c1cba75f2c6b1c53",
+      "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+      "source": "NASA",
+      "published_at": "2026-09-03T17:06:00Z",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+      "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baikonur time), Wednesday, Sept. 9, on a […]",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "duplicate_group": "f4ad664d5318",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+          "source": "NASA",
+          "published_at": "2026-09-03T17:06:00Z",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "fde4a82de636111f",
+      "title": "Curiosity Blog, Sols 4988-4994: More New Tricks for an Old Dog",
+      "source": "NASA",
+      "published_at": "2026-09-03T15:59:48Z",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog/",
+      "summary": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, Aug. 21, 2026 After Curiosity’s 14 years on the surface, Mars continues to surprise. Both of our workspaces this week contained features unlike quite anything we have seen in the past — broad, shallow pits (like the one in the image above) dotted […]",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "mars"
+      ],
+      "duplicate_group": "e00fce466f51",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "Curiosity Blog, Sols 4988-4994: More New Tricks for an Old Dog",
+          "source": "NASA",
+          "published_at": "2026-09-03T15:59:48Z",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "e4d65c08fed659d1",
+      "title": "Igniting Roman’s Journey",
+      "source": "NASA",
+      "published_at": "2026-09-03T14:24:23Z",
+      "url": "https://www.nasa.gov/image-article/igniting-romans-journey/",
+      "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT on Aug. 30 aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large […]",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "duplicate_group": "93e31538939f",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "Igniting Roman’s Journey",
+          "source": "NASA",
+          "published_at": "2026-09-03T14:24:23Z",
+          "url": "https://www.nasa.gov/image-article/igniting-romans-journey/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "da4754635ca74642",
+      "title": "NASA’s Hubble Spies Superbubble Scene",
+      "source": "NASA",
+      "published_at": "2026-09-03T13:16:02Z",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
+      "summary": "This Hubble Space Telescope image features a sprawling cosmic vista called N44.",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [
+        "nasa",
+        "space"
+      ],
+      "duplicate_group": "2a6378935d74",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "NASA’s Hubble Spies Superbubble Scene",
+          "source": "NASA",
+          "published_at": "2026-09-03T13:16:02Z",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "space"
+        ]
+      }
+    }
+  ],
+  "changes": [
+    {
+      "type": "BASELINE",
+      "theme": "初回記録",
+      "yesterday": "比較できる履歴なし",
+      "today": "10件",
+      "change": "本日を今後の比較基準として保存しました。"
+    }
+  ],
+  "signals": []
+}

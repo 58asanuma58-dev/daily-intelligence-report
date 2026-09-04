@@ -1,0 +1,34 @@
+# 自分との関連度を計算するキーワードです。
+high_priority:
+  - artificial intelligence
+  - generative ai
+  - interest rate
+  - monetary policy
+  - healthcare
+  - infection
+  - clinical trial
+  - 人工知能
+  - 生成ai
+  - 金利
+  - 金融政策
+  - 医療
+  - 感染症
+  - 臨床試験
+
+medium_priority:
+  - economy
+  - financial market
+  - science
+  - real estate
+  - 経済
+  - 金融市場
+  - 科学
+  - 不動産
+
+low_priority:
+  - space
+  - climate
+  - housing
+  - 宇宙
+  - 気候
+  - 住宅

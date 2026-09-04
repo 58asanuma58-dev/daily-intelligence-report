@@ -1,0 +1,135 @@
+# 何時間前までの記事を「今回の対象」とするかを指定します。
+lookback_hours: 48
+
+# どのルールにも一致しなかった記事の分類先です。
+default_category: Other Important Developments
+
+# キーワードが見つからない場合に使う、情報源ごとの初期分類です。
+source_defaults:
+  日本銀行: Economy
+  WHO News: Medicine / Healthcare
+  NASA: Science
+
+# 上から順に同点時の優先順位になります。
+categories:
+  - name: Financial Markets
+    keywords:
+      - stock market
+      - stocks
+      - bond
+      - bonds
+      - foreign exchange
+      - exchange rate
+      - currency
+      - market operations
+      - 株式市場
+      - 株価
+      - 国債
+      - 債券
+      - 為替
+      - 市場調節
+
+  - name: Economy
+    keywords:
+      - economy
+      - economic
+      - inflation
+      - monetary policy
+      - central bank
+      - interest rate
+      - employment
+      - gross domestic product
+      - gdp
+      - 経済
+      - 物価
+      - 金融政策
+      - 中央銀行
+      - 金利
+      - 雇用
+      - 日本銀行
+      - 日銀
+
+  - name: AI / Technology
+    keywords:
+      - artificial intelligence
+      - generative ai
+      - machine learning
+      - semiconductor
+      - cybersecurity
+      - software
+      - technology
+      - ai
+      - 人工知能
+      - 生成ai
+      - 機械学習
+      - 半導体
+      - サイバー
+
+  - name: Medicine / Healthcare
+    keywords:
+      - medicine
+      - medical
+      - healthcare
+      - health
+      - disease
+      - infection
+      - vaccine
+      - clinical trial
+      - hospital
+      - who
+      - 医療
+      - 健康
+      - 疾患
+      - 感染症
+      - ワクチン
+      - 臨床試験
+      - 病院
+
+  - name: Science
+    keywords:
+      - science
+      - research
+      - nasa
+      - space
+      - astronomy
+      - mars
+      - climate
+      - 科学
+      - 研究
+      - 宇宙
+      - 火星
+      - 気候
+
+  - name: Real Estate
+    keywords:
+      - real estate
+      - housing
+      - property
+      - mortgage
+      - rent
+      - 不動産
+      - 住宅
+      - 地価
+      - 住宅ローン
+      - 家賃
+
+  - name: Japan
+    keywords:
+      - japan
+      - japanese government
+      - tokyo
+      - 日本
+      - 政府
+      - 国会
+      - 東京
+
+  - name: World
+    keywords:
+      - international
+      - united nations
+      - geopolitics
+      - global
+      - 国際
+      - 国連
+      - 外交
+      - 地政学

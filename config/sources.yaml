@@ -1,0 +1,19 @@
+# Phase 1では、APIキー不要の公開RSSだけを登録します。
+sources:
+  - name: 日本銀行
+    url: https://www.boj.or.jp/rss/whatsnew.xml
+    enabled: true
+    reliability: 5
+
+  - name: WHO News
+    url: https://www.who.int/rss-feeds/news-english.xml
+    enabled: true
+    reliability: 5
+
+  - name: NASA
+    url: https://www.nasa.gov/feed/
+    enabled: true
+    reliability: 5
+
+# 1つの情報源から表示する最大件数です。
+max_items_per_source: 5

@@ -1,0 +1,35 @@
+deduplication:
+  title_similarity: 0.76
+  token_overlap: 0.55
+  max_hours_apart: 48
+
+scoring:
+  reliable_source: 3
+  watchlist: 3
+  multiple_sources: 2
+  recent_24h: 2
+  important_keyword: 2
+  new_topic: 2
+  many_duplicates_penalty: -1
+  high_reliability_minimum: 4
+  many_duplicates_minimum: 4
+
+relevance:
+  high_priority: 3
+  medium_priority: 2
+  low_priority: 1
+
+selection:
+  top_count: 10
+  category_max: 5
+  executive_max: 5
+  takeaway_max: 5
+
+comparison:
+  max_changes: 10
+  trend_minimum_increase: 2
+  trend_ratio: 1.5
+
+signals:
+  high_priority_threshold: 8
+  max_signals: 10

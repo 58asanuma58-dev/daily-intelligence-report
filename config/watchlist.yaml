@@ -1,0 +1,55 @@
+topics:
+  - name: Central Bank Policy
+    keywords:
+      - central bank
+      - monetary policy
+      - interest rate
+      - 日本銀行
+      - 日銀
+      - 金融政策
+      - 金利
+
+  - name: Financial Markets
+    keywords:
+      - stock market
+      - bond
+      - foreign exchange
+      - 国債
+      - 株価
+      - 為替
+
+  - name: AI Policy and Products
+    keywords:
+      - artificial intelligence
+      - generative ai
+      - ai regulation
+      - 人工知能
+      - 生成ai
+      - ai規制
+
+  - name: Clinical Research
+    keywords:
+      - clinical trial
+      - randomized trial
+      - guideline
+      - 臨床試験
+      - ガイドライン
+
+  - name: Infectious Diseases
+    keywords:
+      - infection
+      - infectious disease
+      - outbreak
+      - antimicrobial resistance
+      - 感染症
+      - アウトブレイク
+      - 薬剤耐性
+
+  - name: Real Estate Market
+    keywords:
+      - real estate
+      - housing market
+      - mortgage
+      - 不動産
+      - 住宅市場
+      - 住宅ローン
