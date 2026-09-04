@@ -1,0 +1,450 @@
+{
+  "report_date": "2026-09-05",
+  "generated_at": "2026-09-05T08:13:06+09:00",
+  "target_period_hours": 48,
+  "stats": {
+    "raw_articles": 15,
+    "period_excluded": 6,
+    "articles_before_grouping": 9,
+    "story_groups": 9,
+    "duplicates_merged": 0,
+    "source_success": 3,
+    "source_failures": 0
+  },
+  "fetch_errors": [],
+  "articles": [
+    {
+      "id": "fa71815a4015aad0",
+      "title": "【記者会見】植田総裁（G20、9月1日分）",
+      "source": "日本銀行",
+      "published_at": "2026-09-04T07:00:00Z",
+      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "39e97972df6c",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "【記者会見】植田総裁（G20、9月1日分）",
+          "source": "日本銀行",
+          "published_at": "2026-09-04T07:00:00Z",
+          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "7a0ee0ba2f29a685",
+      "title": "【記者会見】高田審議委員（札幌、9月2日分）",
+      "source": "日本銀行",
+      "published_at": "2026-09-03T05:40:00Z",
+      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "19e00a01ccd7",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "【記者会見】高田審議委員（札幌、9月2日分）",
+          "source": "日本銀行",
+          "published_at": "2026-09-03T05:40:00Z",
+          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "277b83add467f87d",
+      "title": "「市場調節に関する意見交換会」の開催について",
+      "source": "日本銀行",
+      "published_at": "2026-09-03T02:00:00Z",
+      "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf",
+      "summary": "",
+      "category": "Financial Markets",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [
+        "市場調節"
+      ],
+      "duplicate_group": "d1a49207ef7f",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "「市場調節に関する意見交換会」の開催について",
+          "source": "日本銀行",
+          "published_at": "2026-09-03T02:00:00Z",
+          "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "2c33974cd86bf390",
+      "title": "日銀当座預金増減要因（9月見込み）",
+      "source": "日本銀行",
+      "published_at": "2026-09-02T23:50:00Z",
+      "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx",
+      "summary": "",
+      "category": "Economy",
+      "importance_score": 6,
+      "relevance_score": 0,
+      "keywords": [
+        "日銀"
+      ],
+      "duplicate_group": "7b58f993df4f",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "日銀当座預金増減要因（9月見込み）",
+          "source": "日本銀行",
+          "published_at": "2026-09-02T23:50:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx"
+        }
+      ],
+      "watchlist_topics": [
+        "Central Bank Policy"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "54771ed2a5c1a6e7",
+      "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+      "source": "NASA",
+      "published_at": "2026-09-04T19:51:56Z",
+      "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
+      "summary": "The fire department at NASA’s Ames Research Center in California’s Silicon Valley will perform training on the Moffett Federal Airfield beginning Tuesday, Sept. 8 through Friday, Sept. 11. The training will involve the use of a propane-fueled aircraft fire simulator and be conducted from 8 a.m. to 8 p.m. PDT. Because the aircraft simulator is […]",
+      "category": "Science",
+      "importance_score": 7,
+      "relevance_score": 0,
+      "keywords": [
+        "research",
+        "nasa"
+      ],
+      "duplicate_group": "64ac5527200a",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+          "source": "NASA",
+          "published_at": "2026-09-04T19:51:56Z",
+          "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "3724daf1d350a43c",
+      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+      "source": "NASA",
+      "published_at": "2026-09-04T16:48:59Z",
+      "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
+      "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "nasa"
+      ],
+      "duplicate_group": "96688c11ae82",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+          "source": "NASA",
+          "published_at": "2026-09-04T16:48:59Z",
+          "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "f87053fc5ce658ba",
+      "title": "Lunar Occultation of Venus",
+      "source": "NASA",
+      "published_at": "2026-09-04T14:14:57Z",
+      "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/",
+      "summary": "On Wednesday, June 17, skywatchers across the United States—and parts of Canada—enjoyed a rare event: a daytime lunar occultation of Venus. A lunar occultation occurs when the Moon moves directly in front of another celestial object from our viewpoint on Earth, briefly hiding it from sight. This time, the Moon slipped in front of Venus […]",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "ad02239bf629",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "Lunar Occultation of Venus",
+          "source": "NASA",
+          "published_at": "2026-09-04T14:14:57Z",
+          "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "a02a0ddc1b22dbff",
+      "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
+      "source": "NASA",
+      "published_at": "2026-09-04T04:05:00Z",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
+      "summary": "APOD Science APOD APOD: 2026 September 4 – Na… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Nā ʻUhane […]",
+      "category": "Science",
+      "importance_score": 7,
+      "relevance_score": 2,
+      "keywords": [
+        "science",
+        "astronomy"
+      ],
+      "duplicate_group": "1cfdbf8c87fe",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
+          "source": "NASA",
+          "published_at": "2026-09-04T04:05:00Z",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "medium_priority": 2
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [
+          "science"
+        ],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "1d8e244bfa981ad1",
+      "title": "A Trio of Tropical Cyclones in the Pacific",
+      "source": "NASA",
+      "published_at": "2026-09-04T04:01:00Z",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
+      "summary": "The Pacific was buzzing with storms while the Atlantic was notably quiet.",
+      "category": "Science",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "30abdf7bf3d5",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "NASA"
+      ],
+      "related_articles": [
+        {
+          "title": "A Trio of Tropical Cyclones in the Pacific",
+          "source": "NASA",
+          "published_at": "2026-09-04T04:01:00Z",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    }
+  ],
+  "changes": [
+    {
+      "type": "NEW TOPIC",
+      "theme": "research",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "IMPORTANCE UP",
+      "theme": "nasa",
+      "yesterday": "重要度 5",
+      "today": "重要度 7",
+      "change": "テーマ内の最高重要度が上昇しました。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "science",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "astronomy",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW ARTICLE",
+      "theme": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
+      "yesterday": "掲載なし",
+      "today": "NASA",
+      "change": "前回履歴にない記事です。"
+    },
+    {
+      "type": "NEW ARTICLE",
+      "theme": "NASA Ames Fire Department Aircraft Firefighting Training",
+      "yesterday": "掲載なし",
+      "today": "NASA",
+      "change": "前回履歴にない記事です。"
+    },
+    {
+      "type": "NEW ARTICLE",
+      "theme": "【記者会見】植田総裁（G20、9月1日分）",
+      "yesterday": "掲載なし",
+      "today": "日本銀行",
+      "change": "前回履歴にない記事です。"
+    },
+    {
+      "type": "NEW ARTICLE",
+      "theme": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+      "yesterday": "掲載なし",
+      "today": "NASA",
+      "change": "前回履歴にない記事です。"
+    },
+    {
+      "type": "NEW ARTICLE",
+      "theme": "Lunar Occultation of Venus",
+      "yesterday": "掲載なし",
+      "today": "NASA",
+      "change": "前回履歴にない記事です。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "NEW TOPIC",
+      "title": "research",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "science",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "astronomy",
+      "detail": "前回履歴になかったテーマです。"
+    }
+  ]
+}

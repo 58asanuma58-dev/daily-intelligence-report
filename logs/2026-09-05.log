@@ -1,0 +1,10 @@
+23:13:06 INFO root START Daily Intelligence Report
+23:13:06 INFO fetcher SOURCE OK 日本銀行: 5 articles
+23:13:07 INFO fetcher SOURCE OK WHO News: 5 articles
+23:13:07 INFO fetcher SOURCE OK NASA: 5 articles
+23:13:07 INFO root RAW SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/raw/2026-09-05.json (15 articles)
+23:13:07 INFO root PROCESSED recent=9 excluded=6 grouped=9 duplicates_merged=0
+23:13:07 INFO root HTML GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/html/daily-intelligence-2026-09-05.html
+23:13:08 INFO root PDF GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/pdf/daily-intelligence-2026-09-05.pdf
+23:13:08 INFO root HISTORY SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/history/2026-09-05.json
+23:13:08 INFO root COMPLETE
