@@ -8,3 +8,13 @@
 13:55:05 INFO root PDF GENERATED /Users/numamon/Documents/Codex/2026-09-04/files-pasted-by-the-user-personal/outputs/daily-intelligence-report/output/pdf/daily-intelligence-2026-09-04.pdf
 13:55:05 INFO root HISTORY SAVED /Users/numamon/Documents/Codex/2026-09-04/files-pasted-by-the-user-personal/outputs/daily-intelligence-report/data/history/2026-09-04.json
 13:55:05 INFO root COMPLETE
+04:56:34 INFO root START Daily Intelligence Report
+04:56:34 INFO fetcher SOURCE OK 日本銀行: 5 articles
+04:56:34 INFO fetcher SOURCE OK WHO News: 5 articles
+04:56:35 INFO fetcher SOURCE OK NASA: 5 articles
+04:56:35 INFO root RAW SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/raw/2026-09-04.json (15 articles)
+04:56:35 INFO root PROCESSED recent=10 excluded=5 grouped=10 duplicates_merged=0
+04:56:35 INFO root HTML GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/html/daily-intelligence-2026-09-04.html
+04:56:35 INFO root PDF GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/pdf/daily-intelligence-2026-09-04.pdf
+04:56:35 INFO root HISTORY SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/history/2026-09-04.json
+04:56:35 INFO root COMPLETE
