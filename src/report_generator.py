@@ -20,9 +20,9 @@ def shorten(text: Any, maximum: int = 420) -> str:
 
 
 def article_summary(article: dict[str, Any]) -> str:
-    """生成AIを使わず、RSS概要を読みやすい長さにする。"""
+    """生成済みの日本語要約を読みやすい長さにする。"""
     summary = shorten(article.get("summary"))
-    return summary or "RSSには概要が含まれていません。元記事で詳細を確認してください。"
+    return summary or "日本語要約を生成できませんでした。元記事で詳細を確認してください。"
 
 
 def why_it_matters(article: dict[str, Any]) -> str:
@@ -46,7 +46,7 @@ def build_takeaways(
 ) -> list[str]:
     """上位記事から「今日覚えておくこと」を機械的に作る。"""
     return [
-        f"[{article.get('category')}] {article.get('title')}（重要度 {article.get('importance_score')}/10）"
+        f"[{article.get('category')}] {shorten(article.get('summary'), 120)}（重要度 {article.get('importance_score')}/10）"
         for article in top_articles[:maximum]
     ]
 

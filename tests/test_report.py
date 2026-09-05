@@ -1,13 +1,13 @@
 from pathlib import Path
 
-from report_generator import generate_html, why_it_matters
+from report_generator import build_takeaways, generate_html, why_it_matters
 
 
 def test_html_report_escapes_article_content(tmp_path):
     project_root = Path(__file__).resolve().parent.parent
     article = {
         "title": "<script>alert(1)</script>", "category": "AI / Technology", "importance_score": 8,
-        "relevance_score": 2, "summary": "Summary", "is_watchlist": False,
+        "relevance_score": 2, "summary": "新しいAIサービスの対象と発表内容を説明する日本語要約です。", "is_watchlist": False,
         "duplicate_count": 1, "source": "OpenAI", "published_at": "2026-09-03T00:00:00Z",
         "url": "https://example.com", "watchlist_topics": [], "score_details": {},
         "matched_interest_keywords": {},
@@ -24,6 +24,7 @@ def test_html_report_escapes_article_content(tmp_path):
     html = output.read_text(encoding="utf-8")
     assert "&lt;script&gt;" in html
     assert "<script>alert(1)</script>" not in html
+    assert "新しいAIサービスの対象と発表内容" in html
     assert "DAILY INTELLIGENCE" in html
 
 
@@ -35,3 +36,15 @@ def test_why_it_matters_uses_rule_reasons():
     }
     text = why_it_matters(article)
     assert "Watch List" in text and "2件" in text and "24時間以内" in text
+
+
+def test_takeaway_uses_japanese_summary_instead_of_english_title():
+    article = {
+        "title": "English headline",
+        "category": "AI / Technology",
+        "summary": "企業が新しいAIサービスを発表し、医療機関向けに提供を開始します。",
+        "importance_score": 8,
+    }
+    takeaway = build_takeaways([article], 1)[0]
+    assert "企業が新しいAIサービス" in takeaway
+    assert "English headline" not in takeaway

@@ -33,3 +33,11 @@ comparison:
 signals:
   high_priority_threshold: 8
   max_signals: 10
+
+summarization:
+  provider: copilot
+  required: false
+  minimum_chars: 60
+  maximum_chars: 320
+  source_text_maximum_chars: 3500
+  timeout_seconds: 300

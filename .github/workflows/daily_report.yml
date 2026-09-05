@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
 
 concurrency:
   group: daily-intelligence-report
@@ -34,8 +35,15 @@ jobs:
       - name: Run tests
         run: pytest -q
 
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot
+
       - name: Generate report
         run: python src/main.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SUMMARY_PROVIDER: copilot
+          SUMMARY_REQUIRED: "true"
 
       - name: Upload report artifact
         if: always()

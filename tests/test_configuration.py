@@ -57,4 +57,7 @@ def test_workflow_keeps_daily_schedule_and_quality_gate():
     assert "pytest -q" in workflow
     assert "python src/main.py" in workflow
     assert "actions/upload-artifact@v7" in workflow
+    assert "copilot-requests: write" in workflow
+    assert "npm install -g @github/copilot" in workflow
+    assert "SUMMARY_REQUIRED" in workflow
     assert "git add data/raw data/history data/processed output logs" in workflow

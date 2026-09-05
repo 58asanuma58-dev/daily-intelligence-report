@@ -24,6 +24,7 @@ h3 { margin: 1.2mm 0 1.5mm; color: var(--navy); font-size: 11.5pt; line-height: 
 p { margin: 1.5mm 0; }
 .executive-list { padding-left: 7mm; }
 .executive-list li { padding: 2.5mm 0 2.5mm 2mm; border-bottom: 1px solid var(--line); }
+.executive-list p, .category-block li p { margin: 1mm 0; font-size: 8.7pt; line-height: 1.55; }
 small { display: block; color: var(--muted); font-size: 8pt; }
 .story { margin-bottom: 7mm; padding: 5mm; border: 1px solid var(--line); border-left: 4px solid var(--blue); border-radius: 2mm; page-break-inside: avoid; }
 .story-meta { display: flex; gap: 2mm; }
@@ -41,7 +42,7 @@ small { display: block; color: var(--muted); font-size: 8pt; }
 .category-block { margin-bottom: 5mm; page-break-inside: avoid; }
 .category-block h3 { padding-left: 3mm; border-left: 3px solid var(--cyan); }
 .category-block ul, .takeaways { padding-left: 6mm; }
-.category-block li, .takeaways li { margin: 2mm 0; }
+.category-block li, .takeaways li { margin: 3mm 0; page-break-inside: avoid; }
 .compact-story { padding: 3mm 0; border-bottom: 1px solid var(--line); page-break-inside: avoid; }
 .compact-story .watch { margin-right: 2mm; }
 .empty { color: var(--muted); font-style: italic; }

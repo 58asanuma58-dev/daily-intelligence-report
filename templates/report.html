@@ -25,7 +25,7 @@
       {% if executive_summary %}
       <ol class="executive-list">
         {% for article in executive_summary %}
-        <li><strong>{{ article.title }}</strong><small>{{ article.category }} · Importance {{ article.importance_score }}/10</small></li>
+        <li><strong>{{ article.title }}</strong><p>{{ article | summary }}</p><small>{{ article.category }} · Importance {{ article.importance_score }}/10</small></li>
         {% endfor %}
       </ol>
       {% else %}<p class="empty">対象期間内の重要記事はありません。</p>{% endif %}
@@ -37,7 +37,7 @@
       <div class="story">
         <div class="story-meta"><span class="category">{{ article.category }}</span>{% if article.is_watchlist %}<span class="watch">WATCH</span>{% endif %}</div>
         <h3>{{ article.title }}</h3>
-        <p>{{ article | summary }}</p>
+        <p><strong>日本語要約</strong>　{{ article | summary }}</p>
         <p class="why"><strong>Why it matters</strong> {{ article | why }}</p>
         <div class="scores"><span>Importance <b>{{ "★" * ((article.importance_score + 1) // 2) }}{{ "☆" * (5 - ((article.importance_score + 1) // 2)) }}</b> {{ article.importance_score }}/10</span> · <span>Relevance {{ article.relevance_score }}/5</span></div>
         <p class="source"><strong>Source</strong> {{ article.source }} · <strong>Published</strong> {{ article.published_at | display_time }}{% if article.duplicate_count > 1 %} · {{ article.duplicate_count }} related reports{% endif %}</p>
@@ -62,7 +62,7 @@
       <h2><span>04</span> Category Digest</h2>
       {% for category, articles in category_digest.items() %}
       <div class="category-block"><h3>{{ category }}</h3><ul>
-        {% for article in articles %}<li><a href="{{ article.url }}">{{ article.title }}</a><small>Importance {{ article.importance_score }}/10 · {{ article.source }}</small></li>{% endfor %}
+        {% for article in articles %}<li><a href="{{ article.url }}">{{ article.title }}</a><p>{{ article | summary }}</p><small>Importance {{ article.importance_score }}/10 · {{ article.source }}</small></li>{% endfor %}
       </ul></div>
       {% else %}<p class="empty">対象記事はありません。</p>{% endfor %}
     </div>
@@ -70,7 +70,7 @@
     <div class="report-section">
       <h2><span>05</span> Watch List</h2>
       {% for article in watchlist_articles %}
-      <div class="compact-story"><h3><span class="watch">WATCH</span> {{ article.title }}</h3><p>{{ article.watchlist_topics | join(" / ") }} · {{ article.source }}</p></div>
+      <div class="compact-story"><h3><span class="watch">WATCH</span> {{ article.title }}</h3><p>{{ article | summary }}</p><p>{{ article.watchlist_topics | join(" / ") }} · {{ article.source }}</p></div>
       {% else %}<p class="empty">今回該当したWatch List記事はありません。</p>{% endfor %}
     </div>
 
@@ -90,6 +90,6 @@
     {% if fetch_errors %}<div class="report-section errors"><h2>Source Warnings</h2><ul>{% for error in fetch_errors %}<li>{{ error }}</li>{% endfor %}</ul></div>{% endif %}
   </div>
 
-  <div class="report-footer">Rule-based report. No paid API or generative AI was used.</div>
+  <div class="report-footer">日本語要約はRSSおよびリンク先の公開本文を基にAIが生成しています。重要な判断では必ず原文を確認してください。</div>
 </body>
 </html>

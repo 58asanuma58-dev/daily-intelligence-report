@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 
 from classifier import classify_articles, filter_articles_by_period
 from comparator import compare_with_previous
+from content_enricher import enrich_articles
 from deduplicator import group_duplicate_articles
 from fetcher import fetch_all_sources
 from normalizer import normalize_articles
@@ -18,6 +19,7 @@ from scoring import score_articles
 from selector import select_category_digest, select_top_articles
 from signals import generate_signals
 from storage import load_previous_history, previous_keywords, save_json
+from summarizer import summarize_articles
 from utils import load_yaml, setup_logging
 
 
@@ -138,9 +140,14 @@ def run() -> dict[str, Path]:
         len(recent) - len(grouped),
     )
 
+    summarization_settings = settings.get("summarization", {})
+    enriched = enrich_articles(
+        grouped, int(summarization_settings.get("source_text_maximum_chars", 3500))
+    )
+    summarized = summarize_articles(enriched, settings)
     previous_history = load_previous_history(DATA_DIR / "history", report_date)
     scored = score_articles(
-        grouped,
+        summarized,
         reliability,
         configs["interests"],
         configs["watchlist"],
