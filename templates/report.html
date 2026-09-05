@@ -25,7 +25,7 @@
       {% if executive_summary %}
       <ol class="executive-list">
         {% for article in executive_summary %}
-        <li><strong>{{ article.title }}</strong><p>{{ article | summary }}</p><small>{{ article.category }} · Importance {{ article.importance_score }}/10</small></li>
+        <li><strong>{{ article.title | breakable }}</strong><p>{{ article | summary | breakable }}</p><small>{{ article.category }} · Importance {{ article.importance_score }}/10</small></li>
         {% endfor %}
       </ol>
       {% else %}<p class="empty">対象期間内の重要記事はありません。</p>{% endif %}
@@ -36,9 +36,9 @@
       {% for article in top_articles %}
       <div class="story">
         <div class="story-meta"><span class="category">{{ article.category }}</span>{% if article.is_watchlist %}<span class="watch">WATCH</span>{% endif %}</div>
-        <h3>{{ article.title }}</h3>
-        <p><strong>日本語要約</strong>　{{ article | summary }}</p>
-        <p class="why"><strong>Why it matters</strong> {{ article | why }}</p>
+        <h3>{{ article.title | breakable }}</h3>
+        <p><strong>日本語要約</strong>　{{ article | summary | breakable }}</p>
+        <p class="why"><strong>Why it matters</strong> {{ article | why | breakable }}</p>
         <div class="scores"><span>Importance <b>{{ "★" * ((article.importance_score + 1) // 2) }}{{ "☆" * (5 - ((article.importance_score + 1) // 2)) }}</b> {{ article.importance_score }}/10</span> · <span>Relevance {{ article.relevance_score }}/5</span></div>
         <p class="source"><strong>Source</strong> {{ article.source }} · <strong>Published</strong> {{ article.published_at | display_time }}{% if article.duplicate_count > 1 %} · {{ article.duplicate_count }} related reports{% endif %}</p>
         <p class="url"><strong>URL</strong> <a href="{{ article.url }}">{{ article.url }}</a></p>
@@ -51,8 +51,8 @@
       <div class="change-grid">
       {% for item in changes %}
         <div class="change-card">
-          <span class="signal-label">{{ item.type }}</span><h3>{{ item.theme }}</h3>
-          <p><b>Yesterday</b> {{ item.yesterday }}</p><p><b>Today</b> {{ item.today }}</p><p>{{ item.change }}</p>
+          <span class="signal-label">{{ item.type }}</span><h3>{{ item.theme | breakable }}</h3>
+          <p><b>Yesterday</b> {{ item.yesterday | breakable }}</p><p><b>Today</b> {{ item.today | breakable }}</p><p>{{ item.change | breakable }}</p>
         </div>
       {% else %}<p class="empty">検出された変化はありません。</p>{% endfor %}
       </div>
@@ -62,7 +62,7 @@
       <h2><span>04</span> Category Digest</h2>
       {% for category, articles in category_digest.items() %}
       <div class="category-block"><h3>{{ category }}</h3><ul>
-        {% for article in articles %}<li><a href="{{ article.url }}">{{ article.title }}</a><p>{{ article | summary }}</p><small>Importance {{ article.importance_score }}/10 · {{ article.source }}</small></li>{% endfor %}
+        {% for article in articles %}<li><a href="{{ article.url }}">{{ article.title | breakable }}</a><p>{{ article | summary | breakable }}</p><small>Importance {{ article.importance_score }}/10 · {{ article.source }}</small></li>{% endfor %}
       </ul></div>
       {% else %}<p class="empty">対象記事はありません。</p>{% endfor %}
     </div>
@@ -70,21 +70,21 @@
     <div class="report-section">
       <h2><span>05</span> Watch List</h2>
       {% for article in watchlist_articles %}
-      <div class="compact-story"><h3><span class="watch">WATCH</span> {{ article.title }}</h3><p>{{ article | summary }}</p><p>{{ article.watchlist_topics | join(" / ") }} · {{ article.source }}</p></div>
+      <div class="compact-story"><h3><span class="watch">WATCH</span> {{ article.title | breakable }}</h3><p>{{ article | summary | breakable }}</p><p>{{ article.watchlist_topics | join(" / ") }} · {{ article.source }}</p></div>
       {% else %}<p class="empty">今回該当したWatch List記事はありません。</p>{% endfor %}
     </div>
 
     <div class="report-section">
       <h2><span>06</span> Signals</h2>
       <div class="signals">
-      {% for signal in signals %}<div class="signal-card"><span class="signal-label">{{ signal.label }}</span><h3>{{ signal.title }}</h3><p>{{ signal.detail }}</p></div>
+      {% for signal in signals %}<div class="signal-card"><span class="signal-label">{{ signal.label }}</span><h3>{{ signal.title | breakable }}</h3><p>{{ signal.detail | breakable }}</p></div>
       {% else %}<p class="empty">現在のルールで検出されたシグナルはありません。</p>{% endfor %}
       </div>
     </div>
 
     <div class="report-section">
       <h2><span>07</span> Today's Takeaways</h2>
-      <ul class="takeaways">{% for takeaway in takeaways %}<li>{{ takeaway }}</li>{% else %}<li>対象期間内の記事はありません。</li>{% endfor %}</ul>
+      <ul class="takeaways">{% for takeaway in takeaways %}<li>{{ takeaway | breakable }}</li>{% else %}<li>対象期間内の記事はありません。</li>{% endfor %}</ul>
     </div>
 
     {% if fetch_errors %}<div class="report-section errors"><h2>Source Warnings</h2><ul>{% for error in fetch_errors %}<li>{{ error }}</li>{% endfor %}</ul></div>{% endif %}

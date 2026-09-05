@@ -22,6 +22,7 @@ h2 { margin: 0 0 5mm; padding-bottom: 2.5mm; border-bottom: 2px solid var(--navy
 h2 span { margin-right: 3mm; color: var(--cyan); font-size: 9pt; letter-spacing: .1em; vertical-align: middle; }
 h3 { margin: 1.2mm 0 1.5mm; color: var(--navy); font-size: 11.5pt; line-height: 1.4; }
 p { margin: 1.5mm 0; }
+p, li, h3 { overflow-wrap: anywhere; word-wrap: break-word; word-break: break-all; }
 .executive-list { padding-left: 7mm; }
 .executive-list li { padding: 2.5mm 0 2.5mm 2mm; border-bottom: 1px solid var(--line); }
 .executive-list p, .category-block li p { margin: 1mm 0; font-size: 8.7pt; line-height: 1.55; }

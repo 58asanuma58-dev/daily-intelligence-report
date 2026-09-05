@@ -5,6 +5,7 @@ import re
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup, escape
 
 
 def shorten(text: Any, maximum: int = 420) -> str:
@@ -23,6 +24,13 @@ def article_summary(article: dict[str, Any]) -> str:
     """生成済みの日本語要約を読みやすい長さにする。"""
     summary = shorten(article.get("summary"))
     return summary or "日本語要約を生成できませんでした。元記事で詳細を確認してください。"
+
+
+def breakable_text(value: Any) -> Markup:
+    """xhtml2pdfでも日本語を折り返せるよう、見えない改行機会を安全に加える。"""
+    safe = str(escape(str(value or "")))
+    break_marker = '<span style="font-size:0"> </span>'
+    return Markup(re.sub(r"([ぁ-んァ-ヶ一-龠々])", rf"\1{break_marker}", safe))
 
 
 def why_it_matters(article: dict[str, Any]) -> str:
@@ -63,6 +71,7 @@ def generate_html(
     )
     environment.filters["summary"] = article_summary
     environment.filters["why"] = why_it_matters
+    environment.filters["breakable"] = breakable_text
     environment.filters["display_time"] = lambda value: re.sub("T", " ", str(value)).replace("Z", " UTC")
     template = environment.get_template("report.html")
     css = (template_dir / "style.css").read_text(encoding="utf-8")

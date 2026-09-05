@@ -1,6 +1,7 @@
 from pathlib import Path
+import re
 
-from report_generator import build_takeaways, generate_html, why_it_matters
+from report_generator import breakable_text, build_takeaways, generate_html, why_it_matters
 
 
 def test_html_report_escapes_article_content(tmp_path):
@@ -24,7 +25,8 @@ def test_html_report_escapes_article_content(tmp_path):
     html = output.read_text(encoding="utf-8")
     assert "&lt;script&gt;" in html
     assert "<script>alert(1)</script>" not in html
-    assert "新しいAIサービスの対象と発表内容" in html
+    visible_compact = re.sub(r"<[^>]+>|\s+", "", html)
+    assert "新しいAIサービスの対象と発表内容" in visible_compact
     assert "DAILY INTELLIGENCE" in html
 
 
@@ -48,3 +50,10 @@ def test_takeaway_uses_japanese_summary_instead_of_english_title():
     takeaway = build_takeaways([article], 1)[0]
     assert "企業が新しいAIサービス" in takeaway
     assert "English headline" not in takeaway
+
+
+def test_breakable_text_adds_invisible_breaks_and_keeps_html_escaped():
+    rendered = str(breakable_text("長い日本語<script>alert(1)</script>"))
+    assert 'font-size:0' in rendered
+    assert "&lt;script&gt;" in rendered
+    assert "<script>" not in rendered
