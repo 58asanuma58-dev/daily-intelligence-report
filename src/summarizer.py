@@ -12,6 +12,12 @@ from normalizer import normalize_text
 
 LOGGER = logging.getLogger(__name__)
 JAPANESE_PATTERN = re.compile(r"[ぁ-んァ-ヶ一-龠々]")
+JAPANESE_INNER_SPACE = re.compile(r"(?<=[ぁ-んァ-ヶ一-龠々])\s+(?=[ぁ-んァ-ヶ一-龠々])")
+
+
+def _clean_summary(value: Any) -> str:
+    """PDF改行などに由来する日本語の語中スペースを除く。"""
+    return JAPANESE_INNER_SPACE.sub("", normalize_text(value))
 
 
 def _prompt(articles: list[dict[str, Any]]) -> str:
@@ -62,7 +68,7 @@ def _parse_response(response: str) -> dict[str, str]:
     summaries = payload.get("summaries", {})
     if not isinstance(summaries, dict):
         raise ValueError("要約結果のsummariesが辞書ではありません。")
-    return {str(key): normalize_text(value) for key, value in summaries.items()}
+    return {str(key): _clean_summary(value) for key, value in summaries.items()}
 
 
 def _valid_japanese_summary(text: str, minimum_chars: int) -> bool:
@@ -83,7 +89,7 @@ def _fallback_summary(article: dict[str, Any], maximum_chars: int) -> str:
             f"{article.get('source', '情報源')}が「{title}」に関する情報を公開しました。"
             "日本語要約を生成できなかったため、詳しい内容は原文URLで確認してください。"
         )
-    return text[:maximum_chars]
+    return _clean_summary(text[:maximum_chars])
 
 
 def summarize_articles(

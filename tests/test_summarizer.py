@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from summarizer import _parse_response, summarize_articles
+from summarizer import _clean_summary, _parse_response, summarize_articles
 
 
 ARTICLE = {
@@ -47,6 +47,10 @@ def test_required_mode_rejects_missing_or_short_summary(monkeypatch):
 def test_parser_accepts_unescaped_newline_from_cli():
     response = '{"summaries":{"article-1":"1文目です。\n2文目です。"}}'
     assert _parse_response(response)["article-1"] == "1文目です。 2文目です。"
+
+
+def test_clean_summary_removes_spaces_inside_japanese_words():
+    assert _clean_summary("土砂災害特別 警報を定 時に発表。 次の文です。") == "土砂災害特別警報を定時に発表。 次の文です。"
 
 
 def test_only_invalid_articles_are_retried(monkeypatch):
