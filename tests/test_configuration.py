@@ -57,3 +57,4 @@ def test_workflow_keeps_daily_schedule_and_quality_gate():
     assert "pytest -q" in workflow
     assert "python src/main.py" in workflow
     assert "actions/upload-artifact@v7" in workflow
+    assert "git add data/raw data/history data/processed output logs" in workflow

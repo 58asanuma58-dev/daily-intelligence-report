@@ -54,7 +54,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history data/processed output logs
+          # rawも同じ実行で更新されるため、未保存の変更を残さずまとめて記録します。
+          git add data/raw data/history data/processed output logs
           if git diff --cached --quiet; then
             echo "No report changes to commit"
           else
