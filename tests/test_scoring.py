@@ -16,17 +16,17 @@ SETTINGS = {
 
 def test_scores_are_bounded_and_explainable():
     article = {
-        "title": "New clinical trial for infection",
+        "title": "New generative AI product",
         "summary": "",
-        "source": "WHO",
+        "source": "OpenAI",
         "published_at": "2026-09-03T12:00:00Z",
-        "keywords": ["clinical trial"],
+        "keywords": ["generative ai"],
         "duplicate_count": 2,
-        "duplicate_sources": ["WHO", "Journal"],
+        "duplicate_sources": ["OpenAI", "Google AI"],
     }
     scored = score_articles(
-        [article], {"WHO": 5}, {"high_priority": ["clinical trial", "infection"]},
-        {"topics": [{"name": "Clinical", "keywords": ["clinical trial"]}]},
+        [article], {"OpenAI": 5}, {"high_priority": ["generative ai"]},
+        {"topics": [{"name": "AI Products", "keywords": ["generative ai"]}]},
         SETTINGS, {"old topic"}, datetime(2026, 9, 4, tzinfo=timezone.utc),
     )[0]
     assert scored["importance_score"] == 10

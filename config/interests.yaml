@@ -2,33 +2,35 @@
 high_priority:
   - artificial intelligence
   - generative ai
+  - severe weather
+  - weather warning
+  - real estate
+  - tax reform
+  - public comment
   - interest rate
   - monetary policy
-  - healthcare
-  - infection
-  - clinical trial
   - 人工知能
   - 生成ai
+  - 気象警報
+  - 特別警報
+  - 不動産
+  - 税制改正
+  - 意見募集
   - 金利
   - 金融政策
-  - 医療
-  - 感染症
-  - 臨床試験
 
 medium_priority:
   - economy
   - financial market
-  - science
-  - real estate
+  - housing
+  - regulation
   - 経済
   - 金融市場
-  - 科学
-  - 不動産
+  - 住宅
+  - 法令
 
 low_priority:
-  - space
   - climate
-  - housing
-  - 宇宙
   - 気候
-  - 住宅
+  - 財務省
+  - 国土交通省

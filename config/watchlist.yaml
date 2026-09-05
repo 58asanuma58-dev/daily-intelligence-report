@@ -53,3 +53,23 @@ topics:
       - 不動産
       - 住宅市場
       - 住宅ローン
+
+  - name: Severe Weather
+    keywords:
+      - severe weather
+      - weather warning
+      - typhoon
+      - heavy rain
+      - 特別警報
+      - 気象警報
+      - 台風
+      - 大雨
+
+  - name: Tax and Legal Changes
+    keywords:
+      - tax reform
+      - public comment
+      - law revision
+      - 税制改正
+      - 意見募集
+      - 法改正

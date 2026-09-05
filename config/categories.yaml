@@ -6,12 +6,51 @@ default_category: Other Important Developments
 
 # キーワードが見つからない場合に使う、情報源ごとの初期分類です。
 source_defaults:
+  JMA regular: Weather
+  JMA extra: Weather
+  OpenAI: AI / Technology
+  Google DeepMind: AI / Technology
+  Google AI: AI / Technology
+  ITmedia AI＋: AI / Technology
+  国土交通省プレスリリース: Real Estate
   日本銀行: Economy
-  WHO News: Medicine / Healthcare
-  NASA: Science
+  西日本REINS: Real Estate
+  財務省: Tax / Law
+  e-Gov 意見募集全件: Tax / Law
+  e-Gov 結果公示全件: Tax / Law
 
 # 上から順に同点時の優先順位になります。
 categories:
+  - name: Weather
+    keywords:
+      - weather
+      - typhoon
+      - heavy rain
+      - earthquake
+      - 気象
+      - 天気
+      - 台風
+      - 大雨
+      - 警報
+      - 注意報
+      - 地震
+
+  - name: Tax / Law
+    keywords:
+      - tax
+      - taxation
+      - law
+      - regulation
+      - public comment
+      - 税制
+      - 税
+      - 法律
+      - 法令
+      - 政令
+      - 省令
+      - 意見募集
+      - 結果公示
+
   - name: Financial Markets
     keywords:
       - stock market
@@ -112,6 +151,10 @@ categories:
       - 地価
       - 住宅ローン
       - 家賃
+      - 不動産流通
+      - 土地
+      - 建築
+      - マンション
 
   - name: Japan
     keywords:

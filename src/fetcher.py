@@ -10,9 +10,15 @@ import requests
 LOGGER = logging.getLogger(__name__)
 
 
-def _published_at(entry: Any) -> str:
+def _published_at(entry: Any, fallback: str = "") -> str:
     """RSSごとに異なる公開日時の項目名を吸収する。"""
-    return entry.get("published") or entry.get("updated") or "不明"
+    return entry.get("published") or entry.get("updated") or fallback or "不明"
+
+
+def _feed_published_at(feed: Any) -> str:
+    """フィード全体の更新日時を返す。見つからない場合は空文字にする。"""
+    metadata = getattr(feed, "feed", {})
+    return metadata.get("published") or metadata.get("updated") or ""
 
 
 def fetch_feed(source: dict[str, Any], max_items: int) -> list[dict[str, str]]:
@@ -32,12 +38,18 @@ def fetch_feed(source: dict[str, Any], max_items: int) -> list[dict[str, str]]:
         raise RuntimeError(f"RSSを読み込めませんでした: {reason}")
 
     articles: list[dict[str, str]] = []
-    for entry in feed.entries[:max_items]:
+    feed_published_at = _feed_published_at(feed)
+    for index, entry in enumerate(feed.entries[:max_items]):
+        # 一部のRSSは各記事の日付を配信しません。設定された情報源に限り、
+        # 最新と考えられる先頭記事だけをフィード全体の更新日時で補います。
+        fallback = ""
+        if index == 0 and source.get("use_feed_date_for_first_undated_item", False):
+            fallback = feed_published_at
         articles.append(
             {
                 "title": entry.get("title", "タイトルなし").strip(),
                 "source": source["name"],
-                "published_at": _published_at(entry),
+                "published_at": _published_at(entry, fallback),
                 "url": entry.get("link", "").strip(),
                 "summary": entry.get("summary", ""),
             }

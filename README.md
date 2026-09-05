@@ -111,6 +111,17 @@ python -m pip install -r requirements.txt
 python src/main.py
 ```
 
+## 現在の情報源（12本）
+
+| 分野 | RSS / Atom |
+|---|---|
+| 天気 | JMA regular、JMA extra |
+| AI | OpenAI、Google DeepMind、Google AI、ITmedia AI＋ |
+| 不動産 | 国土交通省プレスリリース、日本銀行、西日本REINS |
+| 税制・法律 | 財務省、e-Gov 意見募集全件、e-Gov 結果公示全件 |
+
+URL、有効・無効、信頼性点は `config/sources.yaml` で管理します。西日本REINSのRSSは各記事の日付を持たないため、先頭記事だけフィード全体の更新日時を使います。これにより古い全記事を新着扱いせず、フィードが更新されたときの最新記事だけを期間判定できます。
+
 Windows PowerShellでは、仮想環境の有効化だけ次のように変わります。
 
 ```powershell
@@ -120,15 +131,16 @@ Windows PowerShellでは、仮想環境の有効化だけ次のように変わ�
 ## 正常時の表示例
 
 ```text
-Personal Daily Intelligence Report - Phase 1
-[OK] 日本銀行: 5件
-[OK] WHO News: 5件
-[OK] NASA: 5件
-...
-取得結果: 合計 15件 / 失敗 0件
+Daily Intelligence Reportを生成しました:
+- raw: .../data/raw/YYYY-MM-DD.json
+- processed: .../data/processed/YYYY-MM-DD.json
+- history: .../data/history/YYYY-MM-DD.json
+- html: .../output/html/daily-intelligence-YYYY-MM-DD.html
+- pdf: .../output/pdf/daily-intelligence-YYYY-MM-DD.pdf
+- log: .../logs/YYYY-MM-DD.log
 ```
 
-RSSの更新状況により件数は変わります。各記事には `title`、`source`、`published_at`、`url`、`summary` が表示されます。
+RSSごとの取得成功と件数はログに `SOURCE OK 情報源名: 件数 articles` と記録されます。RSSの更新状況により、期間内の記事数は変わります。
 
 ## エラー時の確認
 
@@ -334,10 +346,10 @@ python src/main.py
 今回の実データでは次の結果を確認しました。
 
 ```text
-RSS取得: 15件 / 情報源の失敗 0件
+RSS取得: 60件 / 情報源の失敗 0件（12本すべて成功）
 対象期間: 過去 48時間
-対象記事: 10件
-期間外または日時不明: 5件
+対象記事: 41件
+期間外または日時不明: 19件
 ```
 
 記事ごとの`category`と`keywords`に分類結果が表示されれば成功です。取得時刻やRSS更新状況により件数は変わります。

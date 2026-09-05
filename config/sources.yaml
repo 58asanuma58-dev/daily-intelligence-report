@@ -1,19 +1,70 @@
-# Phase 1では、APIキー不要の公開RSSだけを登録します。
+# APIキー不要の公開RSS / Atomを、分野ごとに登録します。
 sources:
+  # 天気
+  - name: JMA regular
+    url: https://www.data.jma.go.jp/developer/xml/feed/regular.xml
+    enabled: true
+    reliability: 5
+
+  - name: JMA extra
+    url: https://www.data.jma.go.jp/developer/xml/feed/extra.xml
+    enabled: true
+    reliability: 5
+
+  # AI
+  - name: OpenAI
+    url: https://openai.com/news/rss.xml
+    enabled: true
+    reliability: 5
+
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+    reliability: 5
+
+  - name: Google AI
+    url: https://blog.google/innovation-and-ai/technology/ai/rss/
+    enabled: true
+    reliability: 5
+
+  - name: ITmedia AI＋
+    url: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+    enabled: true
+    reliability: 4
+
+  # 不動産
+  - name: 国土交通省プレスリリース
+    url: https://www.mlit.go.jp/pressrelease.rdf
+    enabled: true
+    reliability: 5
+
   - name: 日本銀行
     url: https://www.boj.or.jp/rss/whatsnew.xml
     enabled: true
     reliability: 5
 
-  - name: WHO News
-    url: https://www.who.int/rss-feeds/news-english.xml
+  - name: 西日本REINS
+    url: https://www.nishinihon-reins.or.jp/feed/rss/
+    enabled: true
+    reliability: 5
+    # このRSSは各記事の日付を持たないため、先頭記事だけフィード更新日時で補います。
+    use_feed_date_for_first_undated_item: true
+
+  # 税制・法律
+  - name: 財務省
+    url: https://www.mof.go.jp/news.rss
     enabled: true
     reliability: 5
 
-  - name: NASA
-    url: https://www.nasa.gov/feed/
+  - name: e-Gov 意見募集全件
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list.xml
     enabled: true
     reliability: 5
 
-# 1つの情報源から表示する最大件数です。
+  - name: e-Gov 結果公示全件
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result.xml
+    enabled: true
+    reliability: 5
+
+# 1つの情報源から取得する最大件数です（12本なので最大60件）。
 max_items_per_source: 5

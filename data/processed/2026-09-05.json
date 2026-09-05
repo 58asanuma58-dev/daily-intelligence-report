@@ -1,18 +1,624 @@
 {
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T08:13:06+09:00",
+  "generated_at": "2026-09-05T11:00:34+09:00",
   "target_period_hours": 48,
   "stats": {
-    "raw_articles": 15,
-    "period_excluded": 6,
-    "articles_before_grouping": 9,
-    "story_groups": 9,
-    "duplicates_merged": 0,
-    "source_success": 3,
+    "raw_articles": 60,
+    "period_excluded": 19,
+    "articles_before_grouping": 41,
+    "story_groups": 27,
+    "duplicates_merged": 14,
+    "source_success": 12,
     "source_failures": 0
   },
   "fetch_errors": [],
   "articles": [
+    {
+      "id": "1f8606041beb1384",
+      "title": "気象特別警報・警報・注意報",
+      "source": "JMA extra",
+      "published_at": "2026-09-05T01:58:21Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015823_0_VPWW53_471000.xml",
+      "summary": "【沖縄本島地方気象警報・注意報】沖縄本島地方では、強風や高波、落雷に注意してください。",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "気象",
+        "警報",
+        "注意報"
+      ],
+      "duplicate_group": "8bbcb0320a81",
+      "is_watchlist": true,
+      "duplicate_count": 10,
+      "duplicate_sources": [
+        "JMA extra",
+        "JMA regular"
+      ],
+      "related_articles": [
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015728_0_VPWP50_460040.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015729_0_VPWP50_474000.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015730_0_VPWP50_473000.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015732_0_VPWP50_471000.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015733_0_VPWP50_472000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｈ２７）",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T01:58:23Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015824_0_VPWW54_472000.xml"
+        },
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T01:58:23Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015824_0_VPWW53_472000.xml"
+        },
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T01:58:21Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015821_0_VPWW53_473000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｈ２７）",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T01:58:21Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015821_0_VPWW54_473000.xml"
+        },
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T01:58:21Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015823_0_VPWW53_471000.xml"
+        }
+      ],
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "multiple_sources": 2,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2,
+        "many_duplicates": -1
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "気象警報",
+          "特別警報"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "fc40ddafdd41e0cc",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "source": "OpenAI",
+      "published_at": "2026-09-03T13:15:00Z",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "ai"
+      ],
+      "duplicate_group": "c66c65446cc6",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "source": "OpenAI",
+          "published_at": "2026-09-03T13:15:00Z",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "325e9dcd840a97e9",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "source": "OpenAI",
+      "published_at": "2026-09-03T12:00:00Z",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "category": "AI / Technology",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "68920cc49943",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "source": "OpenAI",
+          "published_at": "2026-09-03T12:00:00Z",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "9281d6906e8350b6",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "source": "OpenAI",
+      "published_at": "2026-09-03T12:00:00Z",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "category": "AI / Technology",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "f2ecce93fc2d",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+          "source": "OpenAI",
+          "published_at": "2026-09-03T12:00:00Z",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "2b0379511ea05114",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-03T15:02:08Z",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "category": "Weather",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "weather"
+      ],
+      "duplicate_group": "fcd0530c003c",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "Google DeepMind"
+      ],
+      "related_articles": [
+        {
+          "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+          "source": "Google DeepMind",
+          "published_at": "2026-09-03T15:02:08Z",
+          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "b5f2b6c8a1aca342",
+      "title": "従業員が「個人利用のAIサービス」に顧客情報をアップロード RIZAPが謝罪",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-04T03:42:38Z",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166/",
+      "summary": "パーソナルジムの運営などを手掛けるRIZAPは、同社従業員が個人で利用している外部の生成AIサービスに顧客情報を誤ってアップロードしたと発表した。",
+      "category": "AI / Technology",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "生成ai"
+      ],
+      "duplicate_group": "b5bb46c232bb",
+      "is_watchlist": true,
+      "duplicate_count": 2,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "従業員が「個人利用のAIサービス」に顧客情報をアップロード RIZAPが謝罪",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-04T03:42:38Z",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166/"
+        },
+        {
+          "title": "RIZAP社員、私用AIに顧客の個人情報入力 氏名や疾患、保険証番号など……同社が謝罪",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-04T02:33:22Z",
+          "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001161/"
+        }
+      ],
+      "watchlist_topics": [
+        "AI Policy and Products"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "生成ai"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "6dfc2afc65d93406",
+      "title": "ChatGPTの利用制限、新モデル「Astra」提供まで“毎日リセット” 有料ユーザー向け",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-04T03:25:16Z",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165/",
+      "summary": "新AIモデル「GPT-6 Astra」を使えるようになるまで、「ChatGPT」の利用制限枠のリセット権を有料ユーザー向けに毎日提供する――米OpenAIのティボ・ソティオ氏は、自身のXアカウントでこのように投稿した。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "0c4030f023f6",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "ChatGPTの利用制限、新モデル「Astra」提供まで“毎日リセット” 有料ユーザー向け",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-04T03:25:16Z",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "180d7ddee24d9b31",
+      "title": "とにかく「データが足りない」フィジカルAI AWS支援プログラム採択各社が示す突破口",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-04T02:00:43Z",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001158/",
+      "summary": "AWSジャパンが8月31日、総額600万米ドル規模の「フィジカルAI開発支援プログラム」の成果報告会を開催した。登壇した多くの企業が語ったのは「データ不足」の壁。半年間の開発から見えた突破口とは。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "7561eeeb542b",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "とにかく「データが足りない」フィジカルAI AWS支援プログラム採択各社が示す突破口",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-04T02:00:43Z",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001158/"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "1f384af08720b6dc",
+      "title": "コードを書くのはAI、人間は何をする？ 弥生とビル・ゲイツが示す「開発者の次の仕事」",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-04T01:15:00Z",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news017.html",
+      "summary": "AIがコードを書き、テストし、レビューまで担う時代が始まった。では、開発者の仕事はどのように変化するのか。仕様書中心の開発を見直した弥生の実践と、ビル・ゲイツ氏の問題提起から、AI時代に人間に残される仕事と、その境界線を考える。",
+      "category": "AI / Technology",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "0ecc8da7de19",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "コードを書くのはAI、人間は何をする？ 弥生とビル・ゲイツが示す「開発者の次の仕事」",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-04T01:15:00Z",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news017.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "87eef21fce15fddc",
+      "title": "令和８年度 「『交通空白』解消等リ・デザイン全面展開プロジェクト」 （「交通空白」解消タイプ、共同化・協業化促進タイプ、モビリティ人材・組織育成タイプ） ３次公募の事業採択について〜「交通空白」解消は成長投資〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-03T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000545.html",
+      "summary": "",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "048de5d4bfc5",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "令和８年度 「『交通空白』解消等リ・デザイン全面展開プロジェクト」 （「交通空白」解消タイプ、共同化・協業化促進タイプ、モビリティ人材・組織育成タイプ） ３次公募の事業採択について〜「交通空白」解消は成長投資〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-03T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000545.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "653ca69244e09857",
+      "title": "「令和８年度『交通空白』解消パイロット・プロジェクト（第２弾）」の事業採択について〜「交通空白」解消は成長投資〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-03T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000538.html",
+      "summary": "",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "408eb83ed556",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "「令和８年度『交通空白』解消パイロット・プロジェクト（第２弾）」の事業採択について〜「交通空白」解消は成長投資〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-03T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000538.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "3c57802e5e1a61dd",
+      "title": "地域生活圏形成リーディング事業【人材育成】の支援対象となる取組を採択しました〜「地域生活圏」の形成に資する人材育成の取組を支援します！〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-03T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/kokudoseisaku03_hh_000281.html",
+      "summary": "",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "15f56af80d82",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "地域生活圏形成リーディング事業【人材育成】の支援対象となる取組を採択しました〜「地域生活圏」の形成に資する人材育成の取組を支援します！〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-03T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/kokudoseisaku03_hh_000281.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "66224301bb9ab02a",
+      "title": "”地域活性化へ”官民連携基盤整備の支援事業を決定〜民間と自治体が連携して取り組むインフラ整備の事業化検討を支援します〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-03T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/kokudoseisaku09_hh_000190.html",
+      "summary": "",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "abc11bd0e7bf",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "”地域活性化へ”官民連携基盤整備の支援事業を決定〜民間と自治体が連携して取り組むインフラ整備の事業化検討を支援します〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-03T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/kokudoseisaku09_hh_000190.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "f2bc0bfecce211d6",
+      "title": "建設業の人材確保・育成に向けた取組を進めていきます〜国土交通省・厚生労働省の令和９年度概算要求の概要〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-03T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo14_hh_000001_00377.html",
+      "summary": "",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "5cd7c8fcab7d",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "建設業の人材確保・育成に向けた取組を進めていきます〜国土交通省・厚生労働省の令和９年度概算要求の概要〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-03T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo14_hh_000001_00377.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
     {
       "id": "fa71815a4015aad0",
       "title": "【記者会見】植田総裁（G20、9月1日分）",
@@ -87,30 +693,250 @@
       }
     },
     {
-      "id": "277b83add467f87d",
-      "title": "「市場調節に関する意見交換会」の開催について",
-      "source": "日本銀行",
-      "published_at": "2026-09-03T02:00:00Z",
-      "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf",
+      "id": "250f51505ad09e5c",
+      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月4日(金曜日))",
+      "source": "財務省",
+      "published_at": "2026-09-04T12:10:00Z",
+      "url": "https://www.mof.go.jp/public_relations/conference/my20260904.html",
       "summary": "",
-      "category": "Financial Markets",
-      "importance_score": 3,
+      "category": "Tax / Law",
+      "importance_score": 5,
       "relevance_score": 0,
-      "keywords": [
-        "市場調節"
-      ],
-      "duplicate_group": "d1a49207ef7f",
+      "keywords": [],
+      "duplicate_group": "3ecb4abbaa79",
       "is_watchlist": false,
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "duplicate_sources": [
-        "日本銀行"
+        "財務省"
       ],
       "related_articles": [
         {
-          "title": "「市場調節に関する意見交換会」の開催について",
-          "source": "日本銀行",
-          "published_at": "2026-09-03T02:00:00Z",
-          "url": "http://www.boj.or.jp/paym/market/mkt260903a.pdf"
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月4日(金曜日))",
+          "source": "財務省",
+          "published_at": "2026-09-04T12:10:00Z",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260904.html"
+        },
+        {
+          "title": "人事異動(令和8年9月4日-所管法人役員の任命)",
+          "source": "財務省",
+          "published_at": "2026-09-04T06:00:00Z",
+          "url": "https://www.mof.go.jp/about_mof/introduction/personnel/transfers/2026.9.4.pdf"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "078a4fc490959579",
+      "title": "個人向け国債の応募額（令和8年8月）",
+      "source": "財務省",
+      "published_at": "2026-09-04T07:00:00Z",
+      "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/houdouhappyou/p20260904.htm",
+      "summary": "",
+      "category": "Financial Markets",
+      "importance_score": 8,
+      "relevance_score": 0,
+      "keywords": [
+        "国債"
+      ],
+      "duplicate_group": "a16b7870cde3",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "個人向け国債の応募額（令和8年8月）",
+          "source": "財務省",
+          "published_at": "2026-09-04T07:00:00Z",
+          "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/houdouhappyou/p20260904.htm"
+        }
+      ],
+      "watchlist_topics": [
+        "Financial Markets"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "b9011729c1eaea98",
+      "title": "令和７年度財務省所管補正予算の主な事業の執⾏状況",
+      "source": "財務省",
+      "published_at": "2026-09-04T06:00:00Z",
+      "url": "https://www.mof.go.jp/about_mof/mof_budget/budget/fy2025/20260904.html",
+      "summary": "",
+      "category": "Tax / Law",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "d6eed50f3f59",
+      "is_watchlist": false,
+      "duplicate_count": 2,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "令和７年度財務省所管補正予算の主な事業の執⾏状況",
+          "source": "財務省",
+          "published_at": "2026-09-04T06:00:00Z",
+          "url": "https://www.mof.go.jp/about_mof/mof_budget/budget/fy2025/20260904.html"
+        },
+        {
+          "title": "令和６年度財務省所管補正予算の主な事業の執⾏状況",
+          "source": "財務省",
+          "published_at": "2026-09-04T06:00:00Z",
+          "url": "https://www.mof.go.jp/about_mof/mof_budget/budget/fy2024/20260904.html"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "財務省"
+        ]
+      }
+    },
+    {
+      "id": "cd0b2c8cce479f05",
+      "title": "電波法施行令の一部を改正する政令案に対する意見募集",
+      "source": "e-Gov 意見募集全件",
+      "published_at": "2026-09-04T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210770&Mode=0",
+      "summary": "案の公示日：2026/09/05 受付締切日時：2026/10/10 00:00 カテゴリー：電気通信 問合せ先（所管省庁・部局名等）：総務省情報流通行政局放送業務課 電話：03-5253-5809",
+      "category": "Tax / Law",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "政令",
+        "意見募集"
+      ],
+      "duplicate_group": "36f099847ee2",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 意見募集全件"
+      ],
+      "related_articles": [
+        {
+          "title": "電波法施行令の一部を改正する政令案に対する意見募集",
+          "source": "e-Gov 意見募集全件",
+          "published_at": "2026-09-04T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210770&Mode=0"
+        }
+      ],
+      "watchlist_topics": [
+        "Tax and Legal Changes"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "意見募集"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "f58fc16ac5668fcc",
+      "title": "国民健康保険法施行規則等の一部を改正する省令案に関する御意見の募集について",
+      "source": "e-Gov 意見募集全件",
+      "published_at": "2026-09-04T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260179&Mode=0",
+      "summary": "案の公示日：2026/09/05 受付締切日時：2026/10/04 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省保険局高齢者医療課 電話：03-5253-1111（内線3199）",
+      "category": "Medicine / Healthcare",
+      "importance_score": 7,
+      "relevance_score": 0,
+      "keywords": [
+        "医療",
+        "健康"
+      ],
+      "duplicate_group": "e4390bf1b475",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 意見募集全件"
+      ],
+      "related_articles": [
+        {
+          "title": "国民健康保険法施行規則等の一部を改正する省令案に関する御意見の募集について",
+          "source": "e-Gov 意見募集全件",
+          "published_at": "2026-09-04T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260179&Mode=0"
+        }
+      ],
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "6eb823231893d8ff",
+      "title": "重要鉱物に係る安定供給確保を図るための取組方針の改正案に対する意見公募",
+      "source": "e-Gov 意見募集全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320018&Mode=0",
+      "summary": "案の公示日：2026/09/04 受付締切日時：2026/10/04 23:59 カテゴリー：行政手続 問合せ先（所管省庁・部局名等）：製造産業局鉱物課03‐3501‐9918",
+      "category": "Tax / Law",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "c6b22b1a5728",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 意見募集全件"
+      ],
+      "related_articles": [
+        {
+          "title": "重要鉱物に係る安定供給確保を図るための取組方針の改正案に対する意見公募",
+          "source": "e-Gov 意見募集全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320018&Mode=0"
         }
       ],
       "watchlist_topics": [],
@@ -125,195 +951,41 @@
       }
     },
     {
-      "id": "2c33974cd86bf390",
-      "title": "日銀当座預金増減要因（9月見込み）",
-      "source": "日本銀行",
-      "published_at": "2026-09-02T23:50:00Z",
-      "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx",
-      "summary": "",
-      "category": "Economy",
-      "importance_score": 6,
-      "relevance_score": 0,
-      "keywords": [
-        "日銀"
-      ],
-      "duplicate_group": "7b58f993df4f",
-      "is_watchlist": true,
-      "duplicate_count": 1,
-      "duplicate_sources": [
-        "日本銀行"
-      ],
-      "related_articles": [
-        {
-          "title": "日銀当座預金増減要因（9月見込み）",
-          "source": "日本銀行",
-          "published_at": "2026-09-02T23:50:00Z",
-          "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx"
-        }
-      ],
-      "watchlist_topics": [
-        "Central Bank Policy"
-      ],
-      "score_details": {
-        "reliable_source": 3,
-        "watchlist": 3
-      },
-      "relevance_details": {},
-      "matched_interest_keywords": {
-        "high_priority": [],
-        "medium_priority": [],
-        "low_priority": []
-      }
-    },
-    {
-      "id": "54771ed2a5c1a6e7",
-      "title": "NASA Ames Fire Department Aircraft Firefighting Training",
-      "source": "NASA",
-      "published_at": "2026-09-04T19:51:56Z",
-      "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
-      "summary": "The fire department at NASA’s Ames Research Center in California’s Silicon Valley will perform training on the Moffett Federal Airfield beginning Tuesday, Sept. 8 through Friday, Sept. 11. The training will involve the use of a propane-fueled aircraft fire simulator and be conducted from 8 a.m. to 8 p.m. PDT. Because the aircraft simulator is […]",
-      "category": "Science",
-      "importance_score": 7,
-      "relevance_score": 0,
-      "keywords": [
-        "research",
-        "nasa"
-      ],
-      "duplicate_group": "64ac5527200a",
-      "is_watchlist": false,
-      "duplicate_count": 1,
-      "duplicate_sources": [
-        "NASA"
-      ],
-      "related_articles": [
-        {
-          "title": "NASA Ames Fire Department Aircraft Firefighting Training",
-          "source": "NASA",
-          "published_at": "2026-09-04T19:51:56Z",
-          "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/"
-        }
-      ],
-      "watchlist_topics": [],
-      "score_details": {
-        "reliable_source": 3,
-        "recent_24h": 2,
-        "new_topic": 2
-      },
-      "relevance_details": {},
-      "matched_interest_keywords": {
-        "high_priority": [],
-        "medium_priority": [],
-        "low_priority": []
-      }
-    },
-    {
-      "id": "3724daf1d350a43c",
-      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-      "source": "NASA",
-      "published_at": "2026-09-04T16:48:59Z",
-      "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
-      "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]",
-      "category": "Science",
+      "id": "05366eabab1f6ae6",
+      "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく、航空機の部品に係る安定供給確保を図るための取組方針（案）に関する意見の公募について",
+      "source": "e-Gov 意見募集全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320013&Mode=0",
+      "summary": "案の公示日：2026/09/04 受付締切日時：2026/10/05 12:00 カテゴリー：その他 問合せ先（所管省庁・部局名等）：経済産業省製造産業局航空機武器産業課",
+      "category": "Tax / Law",
       "importance_score": 5,
-      "relevance_score": 0,
-      "keywords": [
-        "nasa"
-      ],
-      "duplicate_group": "96688c11ae82",
-      "is_watchlist": false,
-      "duplicate_count": 1,
-      "duplicate_sources": [
-        "NASA"
-      ],
-      "related_articles": [
-        {
-          "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-          "source": "NASA",
-          "published_at": "2026-09-04T16:48:59Z",
-          "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/"
-        }
-      ],
-      "watchlist_topics": [],
-      "score_details": {
-        "reliable_source": 3,
-        "recent_24h": 2
-      },
-      "relevance_details": {},
-      "matched_interest_keywords": {
-        "high_priority": [],
-        "medium_priority": [],
-        "low_priority": []
-      }
-    },
-    {
-      "id": "f87053fc5ce658ba",
-      "title": "Lunar Occultation of Venus",
-      "source": "NASA",
-      "published_at": "2026-09-04T14:14:57Z",
-      "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/",
-      "summary": "On Wednesday, June 17, skywatchers across the United States—and parts of Canada—enjoyed a rare event: a daytime lunar occultation of Venus. A lunar occultation occurs when the Moon moves directly in front of another celestial object from our viewpoint on Earth, briefly hiding it from sight. This time, the Moon slipped in front of Venus […]",
-      "category": "Science",
-      "importance_score": 5,
-      "relevance_score": 0,
-      "keywords": [],
-      "duplicate_group": "ad02239bf629",
-      "is_watchlist": false,
-      "duplicate_count": 1,
-      "duplicate_sources": [
-        "NASA"
-      ],
-      "related_articles": [
-        {
-          "title": "Lunar Occultation of Venus",
-          "source": "NASA",
-          "published_at": "2026-09-04T14:14:57Z",
-          "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/"
-        }
-      ],
-      "watchlist_topics": [],
-      "score_details": {
-        "reliable_source": 3,
-        "recent_24h": 2
-      },
-      "relevance_details": {},
-      "matched_interest_keywords": {
-        "high_priority": [],
-        "medium_priority": [],
-        "low_priority": []
-      }
-    },
-    {
-      "id": "a02a0ddc1b22dbff",
-      "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
-      "source": "NASA",
-      "published_at": "2026-09-04T04:05:00Z",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
-      "summary": "APOD Science APOD APOD: 2026 September 4 – Na… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Nā ʻUhane […]",
-      "category": "Science",
-      "importance_score": 7,
       "relevance_score": 2,
       "keywords": [
-        "science",
-        "astronomy"
+        "法律"
       ],
-      "duplicate_group": "1cfdbf8c87fe",
+      "duplicate_group": "8bfc8e37ee53",
       "is_watchlist": false,
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "duplicate_sources": [
-        "NASA"
+        "e-Gov 意見募集全件"
       ],
       "related_articles": [
         {
-          "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
-          "source": "NASA",
-          "published_at": "2026-09-04T04:05:00Z",
-          "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/"
+          "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく、航空機の部品に係る安定供給確保を図るための取組方針（案）に関する意見の公募について",
+          "source": "e-Gov 意見募集全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320013&Mode=0"
+        },
+        {
+          "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく、蓄電池に係る安定供給確保を図るための取組方針の改正案に対する意見の公募について",
+          "source": "e-Gov 意見募集全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320021&Mode=0"
         }
       ],
       "watchlist_topics": [],
       "score_details": {
         "reliable_source": 3,
-        "recent_24h": 2,
         "new_topic": 2
       },
       "relevance_details": {
@@ -322,44 +994,201 @@
       "matched_interest_keywords": {
         "high_priority": [],
         "medium_priority": [
-          "science"
+          "経済"
         ],
         "low_priority": []
       }
     },
     {
-      "id": "1d8e244bfa981ad1",
-      "title": "A Trio of Tropical Cyclones in the Pacific",
-      "source": "NASA",
-      "published_at": "2026-09-04T04:01:00Z",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
-      "summary": "The Pacific was buzzing with storms while the Atlantic was notably quiet.",
-      "category": "Science",
+      "id": "a6027bd6349c5c05",
+      "title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する省令案に関する御意見の募集の結果について",
+      "source": "e-Gov 結果公示全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=495260033&Mode=1",
+      "summary": "結果の公示日：2026/09/04 案の公示日：2026/04/27 受付締切日時：2026/05/26 18:00 命令等の公布日：2026/09/04 提出意見数：7 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局事業管理課",
+      "category": "Tax / Law",
       "importance_score": 5,
-      "relevance_score": 0,
-      "keywords": [],
-      "duplicate_group": "30abdf7bf3d5",
+      "relevance_score": 2,
+      "keywords": [
+        "法律",
+        "省令"
+      ],
+      "duplicate_group": "fc8d08eb32d7",
       "is_watchlist": false,
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "duplicate_sources": [
-        "NASA"
+        "e-Gov 結果公示全件"
       ],
       "related_articles": [
         {
-          "title": "A Trio of Tropical Cyclones in the Pacific",
-          "source": "NASA",
-          "published_at": "2026-09-04T04:01:00Z",
-          "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+          "title": "「社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する政令案に関する御意見の募集」の結果について",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=495260032&Mode=1"
+        },
+        {
+          "title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する省令案に関する御意見の募集の結果について",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=495260033&Mode=1"
         }
       ],
       "watchlist_topics": [],
       "score_details": {
         "reliable_source": 3,
-        "recent_24h": 2
+        "new_topic": 2
       },
-      "relevance_details": {},
+      "relevance_details": {
+        "medium_priority": 2
+      },
       "matched_interest_keywords": {
         "high_priority": [],
+        "medium_priority": [
+          "経済"
+        ],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "8c495cfafa00c56b",
+      "title": "御岳登山鉄道株式会社の鉄道事業の旅客運賃上限変更認可について",
+      "source": "e-Gov 結果公示全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=155260813&Mode=1",
+      "summary": "結果の公示日：2026/09/04 案の公示日：2026/06/15 受付締切日時：2026/06/30 00:00 命令等の公布日： 提出意見数：0 カテゴリー：陸運 問合せ先（所管省庁・部局名等）：国土交通省関東運輸局鉄道部監理課意見募集担当（電話番号０４５－２１１－７２３９）",
+      "category": "Tax / Law",
+      "importance_score": 10,
+      "relevance_score": 4,
+      "keywords": [
+        "意見募集"
+      ],
+      "duplicate_group": "1ee9c202d387",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 結果公示全件"
+      ],
+      "related_articles": [
+        {
+          "title": "御岳登山鉄道株式会社の鉄道事業の旅客運賃上限変更認可について",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=155260813&Mode=1"
+        }
+      ],
+      "watchlist_topics": [
+        "Tax and Legal Changes"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3,
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "意見募集"
+        ],
+        "medium_priority": [],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
+    {
+      "id": "addb9e822051e3e0",
+      "title": "「消費者保護ルールの更なる適正化とＤＸ時代への対応の在り方」に係る一次答申（案）に対する意見募集の結果",
+      "source": "e-Gov 結果公示全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=145210728&Mode=1",
+      "summary": "結果の公示日：2026/09/04 案の公示日：2026/07/01 受付締切日時：2026/07/31 00:00 命令等の公布日： 提出意見数：88 カテゴリー：電気通信 問合せ先（所管省庁・部局名等）：総務省総合通信基盤局電気通信事業部料金サービス課消費者契約適正化推進室 電話：03-5253-5488",
+      "category": "Tax / Law",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "意見募集"
+      ],
+      "duplicate_group": "84482ecc6bcf",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 結果公示全件"
+      ],
+      "related_articles": [
+        {
+          "title": "「消費者保護ルールの更なる適正化とＤＸ時代への対応の在り方」に係る一次答申（案）に対する意見募集の結果",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=145210728&Mode=1"
+        }
+      ],
+      "watchlist_topics": [
+        "Tax and Legal Changes"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "意見募集"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "a1fee82f34209072",
+      "title": "「ネットワーク環境の変化を踏まえた接続政策等の在り方」第一次答申（案）に対する意見募集の結果",
+      "source": "e-Gov 結果公示全件",
+      "published_at": "2026-09-03T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=145210735&Mode=1",
+      "summary": "結果の公示日：2026/09/04 案の公示日：2026/07/01 受付締切日時：2026/07/30 23:59 命令等の公布日： 提出意見数：14 カテゴリー：電気通信 問合せ先（所管省庁・部局名等）：総務省総合通信基盤局電気通信事業部料金サービス課 電話：03-5253-5844",
+      "category": "Tax / Law",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "意見募集"
+      ],
+      "duplicate_group": "449a50dfbf63",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 結果公示全件"
+      ],
+      "related_articles": [
+        {
+          "title": "「ネットワーク環境の変化を踏まえた接続政策等の在り方」第一次答申（案）に対する意見募集の結果",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-03T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=145210735&Mode=1"
+        }
+      ],
+      "watchlist_topics": [
+        "Tax and Legal Changes"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "意見募集"
+        ],
         "medium_priority": [],
         "low_priority": []
       }
@@ -368,82 +1197,124 @@
   "changes": [
     {
       "type": "NEW TOPIC",
-      "theme": "research",
-      "yesterday": "0件",
-      "today": "1件",
-      "change": "前回履歴になかったテーマです。"
-    },
-    {
-      "type": "IMPORTANCE UP",
-      "theme": "nasa",
-      "yesterday": "重要度 5",
-      "today": "重要度 7",
-      "change": "テーマ内の最高重要度が上昇しました。"
-    },
-    {
-      "type": "NEW TOPIC",
-      "theme": "science",
+      "theme": "Severe Weather",
       "yesterday": "0件",
       "today": "1件",
       "change": "前回履歴になかったテーマです。"
     },
     {
       "type": "NEW TOPIC",
-      "theme": "astronomy",
+      "theme": "警報",
       "yesterday": "0件",
       "today": "1件",
       "change": "前回履歴になかったテーマです。"
     },
     {
-      "type": "NEW ARTICLE",
-      "theme": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
-      "yesterday": "掲載なし",
-      "today": "NASA",
-      "change": "前回履歴にない記事です。"
+      "type": "NEW TOPIC",
+      "theme": "注意報",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
     },
     {
-      "type": "NEW ARTICLE",
-      "theme": "NASA Ames Fire Department Aircraft Firefighting Training",
-      "yesterday": "掲載なし",
-      "today": "NASA",
-      "change": "前回履歴にない記事です。"
+      "type": "NEW TOPIC",
+      "theme": "気象",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
     },
     {
-      "type": "NEW ARTICLE",
-      "theme": "【記者会見】植田総裁（G20、9月1日分）",
-      "yesterday": "掲載なし",
-      "today": "日本銀行",
-      "change": "前回履歴にない記事です。"
+      "type": "NEW TOPIC",
+      "theme": "ai",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
     },
     {
-      "type": "NEW ARTICLE",
-      "theme": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-      "yesterday": "掲載なし",
-      "today": "NASA",
-      "change": "前回履歴にない記事です。"
+      "type": "NEW TOPIC",
+      "theme": "AI / Technology",
+      "yesterday": "0件",
+      "today": "5件",
+      "change": "前回履歴になかったテーマです。"
     },
     {
-      "type": "NEW ARTICLE",
-      "theme": "Lunar Occultation of Venus",
-      "yesterday": "掲載なし",
-      "today": "NASA",
-      "change": "前回履歴にない記事です。"
+      "type": "NEW TOPIC",
+      "theme": "weather",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "生成ai",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "AI Policy and Products",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "Real Estate",
+      "yesterday": "0件",
+      "today": "5件",
+      "change": "前回履歴になかったテーマです。"
     }
   ],
   "signals": [
     {
       "label": "NEW TOPIC",
-      "title": "research",
+      "title": "Severe Weather",
       "detail": "前回履歴になかったテーマです。"
     },
     {
       "label": "NEW TOPIC",
-      "title": "science",
+      "title": "警報",
       "detail": "前回履歴になかったテーマです。"
     },
     {
       "label": "NEW TOPIC",
-      "title": "astronomy",
+      "title": "注意報",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "気象",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "ai",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "AI / Technology",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "weather",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "生成ai",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "AI Policy and Products",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "Real Estate",
       "detail": "前回履歴になかったテーマです。"
     }
   ]
