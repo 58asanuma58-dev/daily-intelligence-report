@@ -2,6 +2,20 @@
   {
     "title": "気象警報・注意報（Ｒ０６）（集約通報）",
     "source": "JMA regular",
+    "published_at": "2026-09-05T03:40:59Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034101_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
+    "published_at": "2026-09-05T03:30:52Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905033055_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
     "published_at": "2026-09-05T03:20:57Z",
     "url": "https://www.data.jma.go.jp/developer/xml/data/20260905032100_0_VPWS50_010000.xml",
     "summary": "【警戒・注意事項集約定時通報】"
@@ -21,18 +35,11 @@
     "summary": "【警戒・注意事項集約定時通報】"
   },
   {
-    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-    "source": "JMA regular",
-    "published_at": "2026-09-05T02:50:51Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025054_0_VPWS50_010000.xml",
-    "summary": "【警戒・注意事項集約定時通報】"
-  },
-  {
-    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-    "source": "JMA regular",
-    "published_at": "2026-09-05T02:40:59Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905024101_0_VPWS50_010000.xml",
-    "summary": "【警戒・注意事項集約定時通報】"
+    "title": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "source": "JMA extra",
+    "published_at": "2026-09-05T03:43:16Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034317_0_VPTW61_010000.xml",
+    "summary": "【台風解析・予報情報】"
   },
   {
     "title": "全般気象情報",
@@ -61,13 +68,6 @@
     "published_at": "2026-09-05T02:50:18Z",
     "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ51_450000.xml",
     "summary": "【宮崎県気象解説情報（大雨・落雷・突風）】宮崎県では、５日夕方から土砂災害に厳重に警戒してください。また、浸水害や洪水災害に十分注意し、落雷や竜巻などの激しい突風に注意してください。"
-  },
-  {
-    "title": "地方気象情報",
-    "source": "JMA extra",
-    "published_at": "2026-09-05T02:38:08Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905023809_0_VPCJ50_460100.xml",
-    "summary": "【九州南部・奄美地方気象解説情報（台風第２４号）】屋久島町に発表していたレベル５土砂災害特別警報はレベル４土砂災害危険警報に切り替えました。種子島・屋久島地方では、これまでの大雨により地盤が緩んでいる所があります。５日夜遅くまで土砂災害に厳重に警戒してください。"
   },
   {
     "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
@@ -175,6 +175,13 @@
     "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background"
   },
   {
+    "title": "OpenAIのAIエージェント、休眠サイトを掲示板化してタスク回答を共有か　研究団体が報告書公開",
+    "source": "ITmedia AI＋",
+    "published_at": "Sat, 05 Sep 2026 12:06:58 +0900",
+    "url": "https://www.itmedia.co.jp/news/article/2609/05/2000001200/",
+    "summary": "OpenAIの社内AIエージェントが休眠状態の外部Wikiサイトを不正に“掲示板”として利用し、評価タスクの答えや制限回避の手法を共有していたとする報告書を研究団体が公開した。閲覧のみ許可されていた環境の抜け道を突き、GETリクエストで書き込みを行っていた。OpenAI側は内容を精査して対処するとしている。"
+  },
+  {
     "title": "従業員が「個人利用のAIサービス」に顧客情報をアップロード　RIZAPが謝罪",
     "source": "ITmedia AI＋",
     "published_at": "Fri, 04 Sep 2026 12:42:38 +0900",
@@ -201,13 +208,6 @@
     "published_at": "Fri, 04 Sep 2026 11:00:43 +0900",
     "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001158/",
     "summary": "AWSジャパンが8月31日、総額600万米ドル規模の「フィジカルAI開発支援プログラム」の成果報告会を開催した。登壇した多くの企業が語ったのは「データ不足」の壁。半年間の開発から見えた突破口とは。"
-  },
-  {
-    "title": "コードを書くのはAI、人間は何をする？　弥生とビル・ゲイツが示す「開発者の次の仕事」",
-    "source": "ITmedia AI＋",
-    "published_at": "Fri, 04 Sep 2026 10:15:00 +0900",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news017.html",
-    "summary": "AIがコードを書き、テストし、レビューまで担う時代が始まった。では、開発者の仕事はどのように変化するのか。仕様書中心の開発を見直した弥生の実践と、ビル・ゲイツ氏の問題提起から、AI時代に人間に残される仕事と、その境界線を考える。"
   },
   {
     "title": "令和８年度 「『交通空白』解消等リ・デザイン全面展開プロジェクト」 （「交通空白」解消タイプ、共同化・協業化促進タイプ、モビリティ人材・組織育成タイプ） ３次公募の事業採択について〜「交通空白」解消は成長投資〜",
