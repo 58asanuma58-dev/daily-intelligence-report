@@ -52,12 +52,13 @@ def _parse_response(response: str) -> dict[str, str]:
     if clean.startswith("```"):
         clean = re.sub(r"^```(?:json)?\s*|\s*```$", "", clean, flags=re.DOTALL)
     try:
-        payload = json.loads(clean)
+        # CLIが要約文中の改行をそのまま返す場合があるため、制御文字だけは許容します。
+        payload = json.loads(clean, strict=False)
     except json.JSONDecodeError:
         start, end = clean.find("{"), clean.rfind("}")
         if start < 0 or end <= start:
             raise ValueError("要約結果にJSONがありません。")
-        payload = json.loads(clean[start : end + 1])
+        payload = json.loads(clean[start : end + 1], strict=False)
     summaries = payload.get("summaries", {})
     if not isinstance(summaries, dict):
         raise ValueError("要約結果のsummariesが辞書ではありません。")

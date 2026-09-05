@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from summarizer import summarize_articles
+from summarizer import _parse_response, summarize_articles
 
 
 ARTICLE = {
@@ -42,3 +42,8 @@ def test_required_mode_rejects_missing_or_short_summary(monkeypatch):
             [ARTICLE], {"summarization": {"minimum_chars": 60}},
             runner=lambda prompt, timeout: response,
         )
+
+
+def test_parser_accepts_unescaped_newline_from_cli():
+    response = '{"summaries":{"article-1":"1文目です。\n2文目です。"}}'
+    assert _parse_response(response)["article-1"] == "1文目です。 2文目です。"
