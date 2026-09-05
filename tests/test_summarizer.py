@@ -47,3 +47,30 @@ def test_required_mode_rejects_missing_or_short_summary(monkeypatch):
 def test_parser_accepts_unescaped_newline_from_cli():
     response = '{"summaries":{"article-1":"1文目です。\n2文目です。"}}'
     assert _parse_response(response)["article-1"] == "1文目です。 2文目です。"
+
+
+def test_only_invalid_articles_are_retried(monkeypatch):
+    monkeypatch.setenv("SUMMARY_PROVIDER", "copilot")
+    second = dict(ARTICLE, id="article-2", title="Second news")
+    calls = []
+
+    def runner(prompt, timeout):
+        calls.append(prompt)
+        if len(calls) == 1:
+            return json.dumps(
+                {"summaries": {"article-1": "企業は新サービスを発表しました。医療機関を対象に業務支援機能を提供し、9月5日に運用を始めます。対象地域や料金などの詳細は資料に記載されていません。"}},
+                ensure_ascii=False,
+            )
+        return json.dumps(
+            {"summaries": {"article-2": "別の企業が新製品を公開しました。既存製品より処理時間を短縮し、利用者の作業負担を減らすと説明しています。価格と提供地域は資料に記載されていません。"}},
+            ensure_ascii=False,
+        )
+
+    results = summarize_articles(
+        [ARTICLE, second],
+        {"summarization": {"minimum_chars": 60, "maximum_attempts": 2}},
+        runner=runner,
+    )
+    assert all(item["summary_method"] == "copilot" for item in results)
+    assert "article-1" not in calls[1]
+    assert "article-2" in calls[1]

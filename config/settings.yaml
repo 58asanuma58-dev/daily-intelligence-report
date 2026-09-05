@@ -41,3 +41,4 @@ summarization:
   maximum_chars: 320
   source_text_maximum_chars: 3500
   timeout_seconds: 300
+  maximum_attempts: 2

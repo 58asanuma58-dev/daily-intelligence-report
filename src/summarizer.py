@@ -101,15 +101,35 @@ def summarize_articles(
     summaries: dict[str, str] = {}
 
     if provider == "copilot":
-        try:
-            response = (runner or _run_copilot)(
-                _prompt(articles), int(config.get("timeout_seconds", 300))
+        pending = list(articles)
+        last_error: Exception | None = None
+        for attempt in range(1, int(config.get("maximum_attempts", 2)) + 1):
+            try:
+                response = (runner or _run_copilot)(
+                    _prompt(pending), int(config.get("timeout_seconds", 300))
+                )
+                summaries.update(_parse_response(response))
+            except Exception as error:
+                last_error = error
+                LOGGER.warning("SUMMARY ATTEMPT %d FAILED: %s", attempt, error)
+            pending = [
+                article
+                for article in articles
+                if not _valid_japanese_summary(
+                    summaries.get(str(article.get("id")), "")[:maximum_chars],
+                    minimum_chars,
+                )
+            ]
+            LOGGER.info(
+                "SUMMARY ATTEMPT %d valid=%d pending=%d",
+                attempt,
+                len(articles) - len(pending),
+                len(pending),
             )
-            summaries = _parse_response(response)
-        except Exception as error:
-            if required:
-                raise RuntimeError(f"日本語要約の生成に失敗しました: {error}") from error
-            LOGGER.warning("SUMMARY FALLBACK: %s", error)
+            if not pending:
+                break
+        if required and pending and last_error and not summaries:
+            raise RuntimeError(f"日本語要約の生成に失敗しました: {last_error}") from last_error
 
     completed: list[dict[str, Any]] = []
     invalid_ids: list[str] = []
