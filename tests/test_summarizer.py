@@ -78,3 +78,20 @@ def test_only_invalid_articles_are_retried(monkeypatch):
     assert all(item["summary_method"] == "copilot" for item in results)
     assert "article-1" not in calls[1]
     assert "article-2" in calls[1]
+
+
+def test_valid_cached_summary_skips_copilot_call(monkeypatch):
+    monkeypatch.setenv("SUMMARY_PROVIDER", "copilot")
+    cached = {
+        "article-1": "企業は9月5日、病院向けの新サービスを発表しました。対象となる医療機関の業務を支援する機能を提供する内容です。詳細な提供地域や価格は資料に記載されていません。"
+    }
+
+    def runner(prompt, timeout):
+        raise AssertionError("有効なキャッシュがある記事を再要約してはいけません")
+
+    result = summarize_articles(
+        [ARTICLE], {"summarization": {"minimum_chars": 60}},
+        runner=runner, cached_summaries=cached,
+    )[0]
+    assert result["summary_method"] == "copilot"
+    assert result["summary"].startswith("企業は9月5日")

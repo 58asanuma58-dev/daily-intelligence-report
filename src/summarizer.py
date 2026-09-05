@@ -96,6 +96,7 @@ def summarize_articles(
     articles: list[dict[str, Any]],
     settings: dict[str, Any],
     runner: Callable[[str, int], str] | None = None,
+    cached_summaries: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
     """Copilotで一括要約し、品質条件を満たさない場合は安全に処理する。"""
     config = settings.get("summarization", {})
@@ -104,12 +105,24 @@ def summarize_articles(
     required = required or bool(config.get("required", False))
     minimum_chars = int(config.get("minimum_chars", 60))
     maximum_chars = int(config.get("maximum_chars", 320))
-    summaries: dict[str, str] = {}
+    summaries: dict[str, str] = {
+        str(article_id): _clean_summary(summary)
+        for article_id, summary in (cached_summaries or {}).items()
+    }
 
     if provider == "copilot":
-        pending = list(articles)
+        pending = [
+            article
+            for article in articles
+            if not _valid_japanese_summary(
+                summaries.get(str(article.get("id")), "")[:maximum_chars],
+                minimum_chars,
+            )
+        ]
         last_error: Exception | None = None
         for attempt in range(1, int(config.get("maximum_attempts", 2)) + 1):
+            if not pending:
+                break
             try:
                 response = (runner or _run_copilot)(
                     _prompt(pending), int(config.get("timeout_seconds", 300))
@@ -144,7 +157,7 @@ def summarize_articles(
         candidate = summaries.get(str(item.get("id")), "")[:maximum_chars]
         if _valid_japanese_summary(candidate, minimum_chars):
             item["summary"] = candidate
-            item["summary_method"] = provider
+            item["summary_method"] = "copilot"
         else:
             invalid_ids.append(str(item.get("id")))
             item["summary"] = _fallback_summary(item, maximum_chars)

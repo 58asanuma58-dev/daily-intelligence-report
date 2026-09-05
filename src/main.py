@@ -18,7 +18,7 @@ from report_generator import build_takeaways, generate_html
 from scoring import score_articles
 from selector import select_category_digest, select_top_articles
 from signals import generate_signals
-from storage import load_previous_history, previous_keywords, save_json
+from storage import load_previous_history, load_summary_cache, previous_keywords, save_json
 from summarizer import summarize_articles
 from utils import load_yaml, setup_logging
 
@@ -144,7 +144,8 @@ def run() -> dict[str, Path]:
     enriched = enrich_articles(
         grouped, int(summarization_settings.get("source_text_maximum_chars", 3500))
     )
-    summarized = summarize_articles(enriched, settings)
+    summary_cache = load_summary_cache(DATA_DIR / "history")
+    summarized = summarize_articles(enriched, settings, cached_summaries=summary_cache)
     previous_history = load_previous_history(DATA_DIR / "history", report_date)
     scored = score_articles(
         summarized,

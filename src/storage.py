@@ -60,3 +60,22 @@ def previous_keywords(history: dict[str, Any] | None) -> set[str]:
         for article in history.get("articles", [])
         for keyword in article.get("keywords", [])
     }
+
+
+def load_summary_cache(history_dir: Path, maximum_files: int = 7) -> dict[str, str]:
+    """最近の正常な履歴から、AI生成済み要約を記事IDごとに再利用する。"""
+    cache: dict[str, str] = {}
+    if not history_dir.exists():
+        return cache
+    for path in sorted(history_dir.glob("*.json"), reverse=True)[:maximum_files]:
+        try:
+            data = load_json(path)
+        except (OSError, json.JSONDecodeError) as error:
+            LOGGER.warning("要約キャッシュを読み込めません: %s (%s)", path, error)
+            continue
+        for article in data.get("articles", []) if isinstance(data, dict) else []:
+            article_id = str(article.get("id", ""))
+            summary = str(article.get("summary", ""))
+            if article_id and summary and article.get("summary_method") == "copilot":
+                cache.setdefault(article_id, summary)
+    return cache
