@@ -1,25 +1,25 @@
 {
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T12:45:20+09:00",
+  "generated_at": "2026-09-05T12:51:38+09:00",
   "target_period_hours": 48,
   "stats": {
     "raw_articles": 60,
     "period_excluded": 18,
     "articles_before_grouping": 42,
-    "story_groups": 31,
-    "duplicates_merged": 11,
+    "story_groups": 30,
+    "duplicates_merged": 12,
     "source_success": 12,
     "source_failures": 0
   },
   "fetch_errors": [],
   "articles": [
     {
-      "id": "f3ad4ded7784cc66",
-      "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-      "source": "JMA regular",
-      "published_at": "2026-09-05T03:40:59Z",
-      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034101_0_VPWS50_010000.xml",
-      "summary": "気象庁が「気象警報・注意報（R06）（集約通報）」として、警戒・注意事項を定時に集約して通報した資料。ただし、発表日時、対象地域、警報・注意報の種類、具体的な気象状況や有効期間は本文に記載されておらず、詳細は確認できない。",
+      "id": "46a00f1302990038",
+      "title": "気象警報・注意報（Ｈ２７）",
+      "source": "JMA extra",
+      "published_at": "2026-09-05T03:47:13Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034714_0_VPWW54_460040.xml",
+      "summary": "鹿児島県の奄美地方で、土砂災害に関する危険警報が発表され、厳重な警戒が呼びかけられています。警報の発表日時や対象地域の詳細、具体的な降雨量などは資料に記載されていません。",
       "category": "Weather",
       "importance_score": 10,
       "relevance_score": 3,
@@ -28,10 +28,11 @@
         "警報",
         "注意報"
       ],
-      "duplicate_group": "f1f8d9961d54",
+      "duplicate_group": "4118e563afaf",
       "is_watchlist": true,
-      "duplicate_count": 5,
+      "duplicate_count": 8,
       "duplicate_sources": [
+        "JMA extra",
         "JMA regular"
       ],
       "related_articles": [
@@ -64,6 +65,24 @@
           "source": "JMA regular",
           "published_at": "2026-09-05T03:01:25Z",
           "url": "https://www.data.jma.go.jp/developer/xml/data/20260905030127_0_VPWS50_010000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｈ２７）",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T03:47:13Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034714_0_VPWW54_460040.xml"
+        },
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T03:47:13Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034714_0_VPWW53_460040.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｒ０６）（土砂）",
+          "source": "JMA extra",
+          "published_at": "2026-09-05T03:47:04Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034704_0_VPWW56_460040.xml"
         }
       ],
       "summary_method": "copilot",
@@ -73,6 +92,7 @@
       "score_details": {
         "reliable_source": 3,
         "watchlist": 3,
+        "multiple_sources": 2,
         "recent_24h": 2,
         "important_keyword": 2,
         "new_topic": 2,
@@ -134,12 +154,12 @@
       }
     },
     {
-      "id": "ce43626fe6843502",
-      "title": "全般気象情報",
+      "id": "5198b425aea5dd9b",
+      "title": "全般気象解説情報",
       "source": "JMA extra",
       "published_at": "2026-09-05T02:59:06Z",
-      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025907_0_VPZJ50_010000.xml",
-      "summary": "台風第24号について、鹿児島県のレベル5土砂災害特別警報はレベル4に切り替えられたが、九州南部・奄美地方では9月5日も厳重警戒が必要とされた。台風は久米島北約170キロにあり、5〜7日は各地で最大300ミリの雨、奄美・沖縄で最大瞬間風速30メートルや5メートルの波が予想されている。",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025907_0_VPZJ51_010000.xml",
+      "summary": "台風第24号に伴い、鹿児島県のレベル5土砂災害特別警報はレベル4土砂災害危険警報に切り替えられましたが、九州南部・奄美地方では5日に厳重な警戒が必要です。台風は5日9時、久米島北約1 70キロにあり、中心気圧990ヘクトパスカル、最大風速20メートルでした。6〜7日は東日本から西日本の太平洋側で大雨のおそれがあり、9日頃まで土砂災害や浸水、河川増水、強風、高波、落雷などに注意が必要です。",
       "category": "Weather",
       "importance_score": 10,
       "relevance_score": 3,
@@ -149,19 +169,13 @@
         "大雨",
         "警報"
       ],
-      "duplicate_group": "41059ee6536e",
+      "duplicate_group": "5b63e1a162fd",
       "is_watchlist": true,
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "duplicate_sources": [
         "JMA extra"
       ],
       "related_articles": [
-        {
-          "title": "全般気象情報",
-          "source": "JMA extra",
-          "published_at": "2026-09-05T02:59:06Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025907_0_VPZJ50_010000.xml"
-        },
         {
           "title": "全般気象解説情報",
           "source": "JMA extra",
@@ -187,54 +201,6 @@
         "high_priority": [
           "特別警報"
         ],
-        "medium_priority": [],
-        "low_priority": []
-      }
-    },
-    {
-      "id": "bab67f872039cfbe",
-      "title": "府県気象情報",
-      "source": "JMA extra",
-      "published_at": "2026-09-05T02:50:18Z",
-      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ50_450000.xml",
-      "summary": "宮崎県では前線と熱帯低気圧の影響で大気が不安定となり、9月5日夕方から土砂災害に厳重警戒、浸水・洪水、落雷や竜巻にも注意が呼びかけられた。2日14時から5日11時までに宮崎市田野で417.0ミリを観測し、5〜7日は地域により24時間200ミリの雨が予想されている。",
-      "category": "Weather",
-      "importance_score": 7,
-      "relevance_score": 0,
-      "keywords": [
-        "気象",
-        "大雨"
-      ],
-      "duplicate_group": "4cde13b6c94e",
-      "is_watchlist": false,
-      "duplicate_count": 2,
-      "duplicate_sources": [
-        "JMA extra"
-      ],
-      "related_articles": [
-        {
-          "title": "府県気象情報",
-          "source": "JMA extra",
-          "published_at": "2026-09-05T02:50:18Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ50_450000.xml"
-        },
-        {
-          "title": "府県気象解説情報",
-          "source": "JMA extra",
-          "published_at": "2026-09-05T02:50:18Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ51_450000.xml"
-        }
-      ],
-      "summary_method": "copilot",
-      "watchlist_topics": [],
-      "score_details": {
-        "reliable_source": 3,
-        "recent_24h": 2,
-        "new_topic": 2
-      },
-      "relevance_details": {},
-      "matched_interest_keywords": {
-        "high_priority": [],
         "medium_priority": [],
         "low_priority": []
       }
@@ -1439,9 +1405,9 @@
   "changes": [
     {
       "type": "NEW TOPIC",
-      "theme": "注意報",
+      "theme": "気象",
       "yesterday": "0件",
-      "today": "1件",
+      "today": "2件",
       "change": "前回履歴になかったテーマです。"
     },
     {
@@ -1460,9 +1426,9 @@
     },
     {
       "type": "NEW TOPIC",
-      "theme": "気象",
+      "theme": "注意報",
       "yesterday": "0件",
-      "today": "3件",
+      "today": "1件",
       "change": "前回履歴になかったテーマです。"
     },
     {
@@ -1476,7 +1442,7 @@
       "type": "NEW TOPIC",
       "theme": "大雨",
       "yesterday": "0件",
-      "today": "2件",
+      "today": "1件",
       "change": "前回履歴になかったテーマです。"
     },
     {
@@ -1511,7 +1477,7 @@
   "signals": [
     {
       "label": "NEW TOPIC",
-      "title": "注意報",
+      "title": "気象",
       "detail": "前回履歴になかったテーマです。"
     },
     {
@@ -1526,7 +1492,7 @@
     },
     {
       "label": "NEW TOPIC",
-      "title": "気象",
+      "title": "注意報",
       "detail": "前回履歴になかったテーマです。"
     },
     {

@@ -35,6 +35,27 @@
     "summary": "【警戒・注意事項集約定時通報】"
   },
   {
+    "title": "気象警報・注意報（Ｈ２７）",
+    "source": "JMA extra",
+    "published_at": "2026-09-05T03:47:13Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034714_0_VPWW54_460040.xml",
+    "summary": "【奄美地方（鹿児島県）気象警報・注意報】〈危険警報（土砂災害）〉奄美地方では、土砂災害に厳重に警戒してください。"
+  },
+  {
+    "title": "気象特別警報・警報・注意報",
+    "source": "JMA extra",
+    "published_at": "2026-09-05T03:47:13Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034714_0_VPWW53_460040.xml",
+    "summary": "【奄美地方（鹿児島県）気象警報・注意報】〈危険警報（土砂災害）〉奄美地方では、土砂災害に厳重に警戒してください。"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（土砂）",
+    "source": "JMA extra",
+    "published_at": "2026-09-05T03:47:04Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905034704_0_VPWW56_460040.xml",
+    "summary": "【奄美地方（鹿児島県）土砂災害警報・注意報】奄美地方では、土砂災害に厳重に警戒してください。"
+  },
+  {
     "title": "台風解析・予報情報（５日予報）（Ｈ３０）",
     "source": "JMA extra",
     "published_at": "2026-09-05T03:43:16Z",
@@ -42,32 +63,11 @@
     "summary": "【台風解析・予報情報】"
   },
   {
-    "title": "全般気象情報",
-    "source": "JMA extra",
-    "published_at": "2026-09-05T02:59:06Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025907_0_VPZJ50_010000.xml",
-    "summary": "【全般気象解説情報（台風第２４号）】鹿児島県に発表していたレベル５土砂災害特別警報は、レベル４土砂災害危険警報に切り替えましたが、引き続き九州南部・奄美地方では、５日は土砂災害に厳重に警戒してください。また、６日から７日にかけては、東日本から西日本の太平洋側を中心に再び大雨となるおそれがあります。"
-  },
-  {
     "title": "全般気象解説情報",
     "source": "JMA extra",
     "published_at": "2026-09-05T02:59:06Z",
     "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025907_0_VPZJ51_010000.xml",
     "summary": "【全般気象解説情報（台風第２４号）】鹿児島県に発表していたレベル５土砂災害特別警報は、レベル４土砂災害危険警報に切り替えましたが、引き続き九州南部・奄美地方では、５日は土砂災害に厳重に警戒してください。また、６日から７日にかけては、東日本から西日本の太平洋側を中心に再び大雨となるおそれがあります。"
-  },
-  {
-    "title": "府県気象情報",
-    "source": "JMA extra",
-    "published_at": "2026-09-05T02:50:18Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ50_450000.xml",
-    "summary": "【宮崎県気象解説情報（大雨・落雷・突風）】宮崎県では、５日夕方から土砂災害に厳重に警戒してください。また、浸水害や洪水災害に十分注意し、落雷や竜巻などの激しい突風に注意してください。"
-  },
-  {
-    "title": "府県気象解説情報",
-    "source": "JMA extra",
-    "published_at": "2026-09-05T02:50:18Z",
-    "url": "https://www.data.jma.go.jp/developer/xml/data/20260905025018_0_VPFJ51_450000.xml",
-    "summary": "【宮崎県気象解説情報（大雨・落雷・突風）】宮崎県では、５日夕方から土砂災害に厳重に警戒してください。また、浸水害や洪水災害に十分注意し、落雷や竜巻などの激しい突風に注意してください。"
   },
   {
     "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
