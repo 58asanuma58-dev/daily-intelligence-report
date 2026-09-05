@@ -1,0 +1,22 @@
+23:11:15 INFO root START Daily Intelligence Report
+23:11:15 INFO fetcher SOURCE OK JMA regular: 5 articles
+23:11:16 INFO fetcher SOURCE OK JMA extra: 5 articles
+23:11:16 INFO fetcher SOURCE OK OpenAI: 5 articles
+23:11:16 INFO fetcher SOURCE OK Google DeepMind: 5 articles
+23:11:17 INFO fetcher SOURCE OK Google AI: 5 articles
+23:11:17 INFO fetcher SOURCE OK ITmedia AI＋: 5 articles
+23:11:18 INFO fetcher SOURCE OK 国土交通省プレスリリース: 5 articles
+23:11:18 INFO fetcher SOURCE OK 日本銀行: 5 articles
+23:11:39 ERROR fetcher [FAILED] 西日本REINS: HTTPSConnectionPool(host='www.nishinihon-reins.or.jp', port=443): Max retries exceeded with url: /feed/rss/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nishinihon-reins.or.jp', port=443) at 0x7fc70b6ddd60>, 'Connection to www.nishinihon-reins.or.jp timed out. (connect timeout=20)'))
+23:11:40 INFO fetcher SOURCE OK 財務省: 5 articles
+23:11:41 INFO fetcher SOURCE OK e-Gov 意見募集全件: 5 articles
+23:11:41 INFO fetcher SOURCE OK e-Gov 結果公示全件: 5 articles
+23:11:41 INFO root RAW SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/raw/2026-09-06.json (55 articles)
+23:11:41 INFO root PROCESSED recent=23 excluded=32 grouped=14 duplicates_merged=9
+23:11:58 INFO summarizer SUMMARY ATTEMPT 1 valid=13 pending=1
+23:12:03 INFO summarizer SUMMARY ATTEMPT 2 valid=14 pending=0
+23:12:03 INFO summarizer SUMMARIES provider=copilot generated=14 fallback=0
+23:12:03 INFO root HTML GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/html/daily-intelligence-2026-09-06.html
+23:12:05 INFO root PDF GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/pdf/daily-intelligence-2026-09-06.pdf
+23:12:05 INFO root HISTORY SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/history/2026-09-06.json
+23:12:05 INFO root COMPLETE
