@@ -1,13 +1,13 @@
 {
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T11:00:34+09:00",
+  "generated_at": "2026-09-05T11:04:23+09:00",
   "target_period_hours": 48,
   "stats": {
     "raw_articles": 60,
     "period_excluded": 19,
     "articles_before_grouping": 41,
-    "story_groups": 27,
-    "duplicates_merged": 14,
+    "story_groups": 28,
+    "duplicates_merged": 13,
     "source_success": 12,
     "source_failures": 0
   },
@@ -28,43 +28,19 @@
         "警報",
         "注意報"
       ],
-      "duplicate_group": "8bbcb0320a81",
+      "duplicate_group": "bc55a3d6353e",
       "is_watchlist": true,
-      "duplicate_count": 10,
+      "duplicate_count": 6,
       "duplicate_sources": [
         "JMA extra",
         "JMA regular"
       ],
       "related_articles": [
         {
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
           "source": "JMA regular",
-          "published_at": "2026-09-05T01:55:00Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015728_0_VPWP50_460040.xml"
-        },
-        {
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "source": "JMA regular",
-          "published_at": "2026-09-05T01:55:00Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015729_0_VPWP50_474000.xml"
-        },
-        {
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "source": "JMA regular",
-          "published_at": "2026-09-05T01:55:00Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015730_0_VPWP50_473000.xml"
-        },
-        {
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "source": "JMA regular",
-          "published_at": "2026-09-05T01:55:00Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015732_0_VPWP50_471000.xml"
-        },
-        {
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "source": "JMA regular",
-          "published_at": "2026-09-05T01:55:00Z",
-          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015733_0_VPWP50_472000.xml"
+          "published_at": "2026-09-05T02:02:04Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905020207_0_VPWS50_010000.xml"
         },
         {
           "title": "気象警報・注意報（Ｈ２７）",
@@ -116,6 +92,75 @@
         "high_priority": [
           "気象警報",
           "特別警報"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "0456c1d74946195e",
+      "title": "気象警報・注意報時系列情報（Ｒ０６）",
+      "source": "JMA regular",
+      "published_at": "2026-09-05T01:55:00Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015728_0_VPWP50_460040.xml",
+      "summary": "【奄美地方（鹿児島県）警戒・注意事項時系列情報】",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "気象",
+        "警報",
+        "注意報"
+      ],
+      "duplicate_group": "ee09914bad1c",
+      "is_watchlist": true,
+      "duplicate_count": 4,
+      "duplicate_sources": [
+        "JMA regular"
+      ],
+      "related_articles": [
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015728_0_VPWP50_460040.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015729_0_VPWP50_474000.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015730_0_VPWP50_473000.xml"
+        },
+        {
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "source": "JMA regular",
+          "published_at": "2026-09-05T01:55:00Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260905015732_0_VPWP50_471000.xml"
+        }
+      ],
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2,
+        "many_duplicates": -1
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "気象警報"
         ],
         "medium_priority": [],
         "low_priority": []
@@ -370,7 +415,7 @@
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001158/",
       "summary": "AWSジャパンが8月31日、総額600万米ドル規模の「フィジカルAI開発支援プログラム」の成果報告会を開催した。登壇した多くの企業が語ったのは「データ不足」の壁。半年間の開発から見えた突破口とは。",
       "category": "AI / Technology",
-      "importance_score": 5,
+      "importance_score": 3,
       "relevance_score": 0,
       "keywords": [],
       "duplicate_group": "7561eeeb542b",
@@ -389,8 +434,7 @@
       ],
       "watchlist_topics": [],
       "score_details": {
-        "reliable_source": 3,
-        "recent_24h": 2
+        "reliable_source": 3
       },
       "relevance_details": {},
       "matched_interest_keywords": {
@@ -620,17 +664,17 @@
       }
     },
     {
-      "id": "fa71815a4015aad0",
+      "id": "f6bba11db993b023",
       "title": "【記者会見】植田総裁（G20、9月1日分）",
       "source": "日本銀行",
       "published_at": "2026-09-04T07:00:00Z",
-      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf",
+      "url": "https://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf",
       "summary": "",
       "category": "Economy",
       "importance_score": 5,
       "relevance_score": 0,
       "keywords": [],
-      "duplicate_group": "39e97972df6c",
+      "duplicate_group": "bd6ef57d740b",
       "is_watchlist": false,
       "duplicate_count": 1,
       "duplicate_sources": [
@@ -641,7 +685,7 @@
           "title": "【記者会見】植田総裁（G20、9月1日分）",
           "source": "日本銀行",
           "published_at": "2026-09-04T07:00:00Z",
-          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf"
+          "url": "https://www.boj.or.jp/about/press/kaiken_2026/kk260904a.pdf"
         }
       ],
       "watchlist_topics": [],
@@ -657,17 +701,17 @@
       }
     },
     {
-      "id": "7a0ee0ba2f29a685",
+      "id": "0617ac304adf0986",
       "title": "【記者会見】高田審議委員（札幌、9月2日分）",
       "source": "日本銀行",
       "published_at": "2026-09-03T05:40:00Z",
-      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf",
+      "url": "https://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf",
       "summary": "",
       "category": "Economy",
       "importance_score": 3,
       "relevance_score": 0,
       "keywords": [],
-      "duplicate_group": "19e00a01ccd7",
+      "duplicate_group": "9ae47047c2e3",
       "is_watchlist": false,
       "duplicate_count": 1,
       "duplicate_sources": [
@@ -678,7 +722,7 @@
           "title": "【記者会見】高田審議委員（札幌、9月2日分）",
           "source": "日本銀行",
           "published_at": "2026-09-03T05:40:00Z",
-          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf"
+          "url": "https://www.boj.or.jp/about/press/kaiken_2026/kk260903a.pdf"
         }
       ],
       "watchlist_topics": [],
@@ -1197,30 +1241,30 @@
   "changes": [
     {
       "type": "NEW TOPIC",
-      "theme": "Severe Weather",
+      "theme": "気象",
       "yesterday": "0件",
-      "today": "1件",
-      "change": "前回履歴になかったテーマです。"
-    },
-    {
-      "type": "NEW TOPIC",
-      "theme": "警報",
-      "yesterday": "0件",
-      "today": "1件",
+      "today": "2件",
       "change": "前回履歴になかったテーマです。"
     },
     {
       "type": "NEW TOPIC",
       "theme": "注意報",
       "yesterday": "0件",
-      "today": "1件",
+      "today": "2件",
       "change": "前回履歴になかったテーマです。"
     },
     {
       "type": "NEW TOPIC",
-      "theme": "気象",
+      "theme": "警報",
       "yesterday": "0件",
-      "today": "1件",
+      "today": "2件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "Severe Weather",
+      "yesterday": "0件",
+      "today": "2件",
       "change": "前回履歴になかったテーマです。"
     },
     {
@@ -1246,14 +1290,14 @@
     },
     {
       "type": "NEW TOPIC",
-      "theme": "生成ai",
+      "theme": "AI Policy and Products",
       "yesterday": "0件",
       "today": "1件",
       "change": "前回履歴になかったテーマです。"
     },
     {
       "type": "NEW TOPIC",
-      "theme": "AI Policy and Products",
+      "theme": "生成ai",
       "yesterday": "0件",
       "today": "1件",
       "change": "前回履歴になかったテーマです。"
@@ -1269,12 +1313,7 @@
   "signals": [
     {
       "label": "NEW TOPIC",
-      "title": "Severe Weather",
-      "detail": "前回履歴になかったテーマです。"
-    },
-    {
-      "label": "NEW TOPIC",
-      "title": "警報",
+      "title": "気象",
       "detail": "前回履歴になかったテーマです。"
     },
     {
@@ -1284,7 +1323,12 @@
     },
     {
       "label": "NEW TOPIC",
-      "title": "気象",
+      "title": "警報",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "Severe Weather",
       "detail": "前回履歴になかったテーマです。"
     },
     {
@@ -1304,12 +1348,12 @@
     },
     {
       "label": "NEW TOPIC",
-      "title": "生成ai",
+      "title": "AI Policy and Products",
       "detail": "前回履歴になかったテーマです。"
     },
     {
       "label": "NEW TOPIC",
-      "title": "AI Policy and Products",
+      "title": "生成ai",
       "detail": "前回履歴になかったテーマです。"
     },
     {
