@@ -1,0 +1,21 @@
+23:03:02 INFO root START Daily Intelligence Report
+23:03:03 INFO fetcher SOURCE OK JMA regular: 5 articles
+23:03:04 INFO fetcher SOURCE OK JMA extra: 5 articles
+23:03:04 INFO fetcher SOURCE OK OpenAI: 5 articles
+23:03:05 INFO fetcher SOURCE OK Google DeepMind: 5 articles
+23:03:05 INFO fetcher SOURCE OK Google AI: 5 articles
+23:03:06 INFO fetcher SOURCE OK ITmedia AI＋: 5 articles
+23:03:07 INFO fetcher SOURCE OK 国土交通省プレスリリース: 5 articles
+23:03:07 INFO fetcher SOURCE OK 日本銀行: 5 articles
+23:03:08 INFO fetcher SOURCE OK 西日本REINS: 5 articles
+23:03:08 INFO fetcher SOURCE OK 財務省: 5 articles
+23:03:09 INFO fetcher SOURCE OK e-Gov 意見募集全件: 5 articles
+23:03:09 INFO fetcher SOURCE OK e-Gov 結果公示全件: 5 articles
+23:03:09 INFO root RAW SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/raw/2026-09-07.json (60 articles)
+23:03:09 INFO root PROCESSED recent=15 excluded=45 grouped=8 duplicates_merged=7
+23:03:29 INFO summarizer SUMMARY ATTEMPT 1 valid=8 pending=0
+23:03:29 INFO summarizer SUMMARIES provider=copilot generated=8 fallback=0
+23:03:29 INFO root HTML GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/html/daily-intelligence-2026-09-07.html
+23:03:30 INFO root PDF GENERATED /home/runner/work/daily-intelligence-report/daily-intelligence-report/output/pdf/daily-intelligence-2026-09-07.pdf
+23:03:30 INFO root HISTORY SAVED /home/runner/work/daily-intelligence-report/daily-intelligence-report/data/history/2026-09-07.json
+23:03:30 INFO root COMPLETE
