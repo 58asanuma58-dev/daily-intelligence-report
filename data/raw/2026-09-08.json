@@ -1,0 +1,422 @@
+[
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
+    "published_at": "2026-09-07T23:40:52Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907234056_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
+    "published_at": "2026-09-07T23:30:52Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907233056_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
+    "published_at": "2026-09-07T23:20:54Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907232058_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+    "source": "JMA regular",
+    "published_at": "2026-09-07T23:10:51Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231055_0_VPWS50_010000.xml",
+    "summary": "【警戒・注意事項集約定時通報】"
+  },
+  {
+    "title": "地上実況図",
+    "source": "JMA regular",
+    "published_at": "2026-09-07T23:05:39Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907230600_0_VZSA50_010000.xml",
+    "summary": "【地上実況図】"
+  },
+  {
+    "title": "気象特別警報・警報・注意報",
+    "source": "JMA extra",
+    "published_at": "2026-09-07T23:11:08Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231109_0_VPWW53_190000.xml",
+    "summary": "【山梨県気象警報・注意報】東部・富士五湖では、土砂災害に注意してください。山梨県では、落雷に注意してください。"
+  },
+  {
+    "title": "気象警報・注意報（Ｈ２７）",
+    "source": "JMA extra",
+    "published_at": "2026-09-07T23:11:08Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231109_0_VPWW54_190000.xml",
+    "summary": "【山梨県気象警報・注意報】東部・富士五湖では、土砂災害に注意してください。山梨県では、落雷に注意してください。"
+  },
+  {
+    "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+    "source": "JMA extra",
+    "published_at": "2026-09-07T23:10:35Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231036_0_VPWW61_190000.xml",
+    "summary": "【山梨県雷・濃霧注意報】山梨県では、急な強い雨や落雷に注意してください。"
+  },
+  {
+    "title": "気象特別警報・警報・注意報",
+    "source": "JMA extra",
+    "published_at": "2026-09-07T22:49:18Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907224920_0_VPWW53_450000.xml",
+    "summary": "【宮崎県気象警報・注意報】南部平野部、北部平野部では、強風に注意してください。宮崎県では、高波に注意してください。"
+  },
+  {
+    "title": "気象警報・注意報（Ｈ２７）",
+    "source": "JMA extra",
+    "published_at": "2026-09-07T22:49:18Z",
+    "url": "https://www.data.jma.go.jp/developer/xml/data/20260907224920_0_VPWW54_450000.xml",
+    "summary": "【宮崎県気象警報・注意報】南部平野部、北部平野部では、強風に注意してください。宮崎県では、高波に注意してください。"
+  },
+  {
+    "title": "Supporting independent journalism in Ukraine",
+    "source": "OpenAI",
+    "published_at": "Mon, 07 Sep 2026 00:00:00 GMT",
+    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+  },
+  {
+    "title": "An Alien Mind",
+    "source": "OpenAI",
+    "published_at": "Sun, 06 Sep 2026 09:00:00 GMT",
+    "url": "https://openai.com/index/an-alien-mind",
+    "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination."
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "source": "OpenAI",
+    "published_at": "Sun, 06 Sep 2026 08:00:00 GMT",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+  },
+  {
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "source": "OpenAI",
+    "published_at": "Thu, 03 Sep 2026 13:15:00 GMT",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+  },
+  {
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "source": "OpenAI",
+    "published_at": "Thu, 03 Sep 2026 12:00:00 GMT",
+    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+  },
+  {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "source": "Google DeepMind",
+    "published_at": "Thu, 03 Sep 2026 15:02:08 +0000",
+    "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "summary": ""
+  },
+  {
+    "title": "Proactive cyber defense for governments and enterprises",
+    "source": "Google DeepMind",
+    "published_at": "Wed, 02 Sep 2026 16:24:24 +0000",
+    "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+    "summary": ""
+  },
+  {
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "source": "Google DeepMind",
+    "published_at": "Wed, 02 Sep 2026 16:18:31 +0000",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "summary": ""
+  },
+  {
+    "title": "Introducing agentic video understanding with Gemini",
+    "source": "Google DeepMind",
+    "published_at": "Tue, 01 Sep 2026 17:08:51 +0000",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "summary": ""
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "source": "Google DeepMind",
+    "published_at": "Thu, 27 Aug 2026 16:11:32 +0000",
+    "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "summary": ""
+  },
+  {
+    "title": "Proactive cyber defense for governments and enterprises",
+    "source": "Google AI",
+    "published_at": "Wed, 02 Sep 2026 15:40:00 +0000",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "summary": "Introducing Fairwind Program"
+  },
+  {
+    "title": "The latest AI news we announced in August 2026",
+    "source": "Google AI",
+    "published_at": "Tue, 01 Sep 2026 20:45:00 +0000",
+    "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+    "summary": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\""
+  },
+  {
+    "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+    "source": "Google AI",
+    "published_at": "Tue, 01 Sep 2026 16:00:00 +0000",
+    "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+    "summary": "Collage of images created by Google Pics, with the text \"Say hello to Google Pics\" on top"
+  },
+  {
+    "title": "3 new ways to plan and book travel in Search",
+    "source": "Google AI",
+    "published_at": "Thu, 27 Aug 2026 16:00:00 +0000",
+    "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+    "summary": "Graphic depicting new travel features for AI Mode in Search"
+  },
+  {
+    "title": "5 ways to upgrade your home decor with Google Search",
+    "source": "Google AI",
+    "published_at": "Tue, 25 Aug 2026 16:00:00 +0000",
+    "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+    "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background"
+  },
+  {
+    "title": "行政機関18万人を支える「源内」　わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
+    "source": "ITmedia AI＋",
+    "published_at": "Tue, 08 Sep 2026 08:00:00 +0900",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html",
+    "summary": "省庁ごとに環境を分ければセキュリティは上がるが、運用の手間はテナントの数だけ膨らむ――。約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はこの二律背反をどう乗り越えたのか。インフラ担当者1～2人体制で「高いセキュリティ」と運用の効率化を両立させる設計とは。"
+  },
+  {
+    "title": "初回正答率の向上で「対話の往復」削減　Meta「Muse Spark 1.3」の推論強化と活用ポイント",
+    "source": "ITmedia AI＋",
+    "published_at": "Tue, 08 Sep 2026 08:00:00 +0900",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html",
+    "summary": "Metaが新たに公開したモデル「Muse Spark 1.3」は、推論能力の強化により開発時の「会話の往復」を削減するという。100万トークンのコンテキストやマルチモーダル処理を継承しつつ、選べる2種類の料金体系を提示している。"
+  },
+  {
+    "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
+    "source": "ITmedia AI＋",
+    "published_at": "Tue, 08 Sep 2026 07:02:55 +0900",
+    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/",
+    "summary": "バイオテクノロジー企業のInsilico Medicineは、生成AIで設計した特発性肺線維症の治療薬候補「レントセルチブ」のデータを再解析した結果を発表した。血中タンパク質から測る6種の「老化時計」すべてで、患者の生物学的年齢が最大約6歳分低下したという。老化への直接的な作用を確認するには更なる検証が必要としている。"
+  },
+  {
+    "title": "Googleの自動化ツール「Workspace Studio」とは？　他ツールとの違いと活用法",
+    "source": "ITmedia AI＋",
+    "published_at": "Tue, 08 Sep 2026 07:00:00 +0900",
+    "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/",
+    "summary": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。"
+  },
+  {
+    "title": "中国新興自動車メーカーが取り組むAIアーキテクチャ「LBM」は本流となるか",
+    "source": "ITmedia AI＋",
+    "published_at": "Tue, 08 Sep 2026 07:00:00 +0900",
+    "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html",
+    "summary": "近年、中国の新興自動車メーカーを中心に、従来の枠組みとは異なる新たなAIアーキテクチャが台頭しつつある。それが「LBM」である。今回は、このLBMが中国の新興自動車メーカーに限定された一過性の技術潮流にとどまるのか、あるいは将来的に多くの自動車メーカーへと波及していくのかを考察してみたい。"
+  },
+  {
+    "title": "自転車・地域公共交通連携促進セミナーの開催〜自転車でつながる公共交通〜",
+    "source": "国土交通省プレスリリース",
+    "published_at": "2026-09-07T05:00:00+09:00",
+    "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000544.html",
+    "summary": ""
+  },
+  {
+    "title": "令和８年８月千葉豪雨により被災した河川・道路等の迅速な復旧を支援〜設計図書の簡素化や書面査定の上限額引上げにより、災害査定を効率化します〜",
+    "source": "国土交通省プレスリリース",
+    "published_at": "2026-09-07T05:00:00+09:00",
+    "url": "http://www.mlit.go.jp/report/press/mizukokudo06_hh_000356.html",
+    "summary": ""
+  },
+  {
+    "title": "高速道路での逆走対策に関する有識者委員会（第９回）の開催〜逆走事案を分析する等により今後の効果的な逆走対策を議論します〜",
+    "source": "国土交通省プレスリリース",
+    "published_at": "2026-09-07T05:00:00+09:00",
+    "url": "http://www.mlit.go.jp/report/press/road01_hh_002139.html",
+    "summary": ""
+  },
+  {
+    "title": "「鉄道脱炭素施設等実装調査」を実施する鉄軌道事業者等を募集します！〜鉄軌道事業者等によるカーボンニュートラル実現に向けた取組を促進〜",
+    "source": "国土交通省プレスリリース",
+    "published_at": "2026-09-07T05:00:00+09:00",
+    "url": "http://www.mlit.go.jp/report/press/tetsudo07_hh_000328.html",
+    "summary": ""
+  },
+  {
+    "title": "令和８年度 「『交通空白』解消等リ・デザイン全面展開プロジェクト」 （「交通空白」解消タイプ、共同化・協業化促進タイプ、モビリティ人材・組織育成タイプ） ３次公募の事業採択について〜「交通空白」解消は成長投資〜",
+    "source": "国土交通省プレスリリース",
+    "published_at": "2026-09-04T05:00:00+09:00",
+    "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000545.html",
+    "summary": ""
+  },
+  {
+    "title": "コール市場残高（8月）",
+    "source": "日本銀行",
+    "published_at": "Mon, 07 Sep 2026 15:00:00 +0900",
+    "url": "http://www.boj.or.jp/statistics/market/short/call/call.xlsx",
+    "summary": ""
+  },
+  {
+    "title": "消費活動指数",
+    "source": "日本銀行",
+    "published_at": "Mon, 07 Sep 2026 14:00:00 +0900",
+    "url": "http://www.boj.or.jp/research/research_data/cai/index.htm",
+    "summary": ""
+  },
+  {
+    "title": "令和8年台風第24号及び前線による大雨に伴う災害等に対する金融上の措置について（鹿児島県）",
+    "source": "日本銀行",
+    "published_at": "Mon, 07 Sep 2026 11:00:00 +0900",
+    "url": "http://www.boj.or.jp/about/bcp/fso/fso260907a.pdf",
+    "summary": ""
+  },
+  {
+    "title": "マネタリーベースと日本銀行の取引（8月）",
+    "source": "日本銀行",
+    "published_at": "Mon, 07 Sep 2026 08:50:00 +0900",
+    "url": "http://www.boj.or.jp/statistics/boj/other/mbt/mbt2608.pdf",
+    "summary": ""
+  },
+  {
+    "title": "日本銀行の対政府取引（8月）",
+    "source": "日本銀行",
+    "published_at": "Mon, 07 Sep 2026 08:50:00 +0900",
+    "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2608.pdf",
+    "summary": ""
+  },
+  {
+    "title": "夏季休業のお知らせ",
+    "source": "西日本REINS",
+    "published_at": "Wed, 19 Aug 2026 04:36:55 +0000",
+    "url": "https://www.nishinihon-reins.or.jp/news/1391/",
+    "summary": "機構事務局は、令和8年8月13日（木）〜令和8年8月17日（月）を休業とさせていただきます。 令和8…<a href=\"https://www.nishinihon-reins.or.jp/news/1391/\">続きを読む</a>"
+  },
+  {
+    "title": "機構インフォメーション・情報公開資料更新のお知らせ",
+    "source": "西日本REINS",
+    "published_at": "不明",
+    "url": "https://www.nishinihon-reins.or.jp/news/2507-2/",
+    "summary": "機構インフォメーション・情報公開資料を更新いたしました。 西日本不動産流通機構の概要・役員名簿・会員…<a href=\"https://www.nishinihon-reins.or.jp/news/2507-2/\">続きを読む</a>"
+  },
+  {
+    "title": "2026年",
+    "source": "西日本REINS",
+    "published_at": "不明",
+    "url": "https://www.nishinihon-reins.or.jp/data/1339/",
+    "summary": "2026年1月 2026年2月 2026年3月 2026年4月 2026年5月 2026年6月 20…<a href=\"https://www.nishinihon-reins.or.jp/data/1339/\">続きを読む</a>"
+  },
+  {
+    "title": "2026年",
+    "source": "西日本REINS",
+    "published_at": "不明",
+    "url": "https://www.nishinihon-reins.or.jp/data/1336/",
+    "summary": "2026年1月 2026年2月 2026年3月 2026年4月 2026年5月 2026年6月 20…<a href=\"https://www.nishinihon-reins.or.jp/data/1336/\">続きを読む</a>"
+  },
+  {
+    "title": "年末年始休業のお知らせ",
+    "source": "西日本REINS",
+    "published_at": "不明",
+    "url": "https://www.nishinihon-reins.or.jp/news/2512/",
+    "summary": "機構事務局は、令和7年12月27日（土）〜令和8年1月4日（日）を休業とさせていただきます。 令和8…<a href=\"https://www.nishinihon-reins.or.jp/news/2512/\">続きを読む</a>"
+  },
+  {
+    "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年8月31日(月曜日))",
+    "source": "財務省",
+    "published_at": "Mon, 07 Sep 2026 18:15:00 +0900",
+    "url": "https://www.mof.go.jp/public_relations/conference/my20260831.html",
+    "summary": ""
+  },
+  {
+    "title": "片山財務大臣兼内閣府特命担当大臣、植田日本銀行総裁共同記者会見の概要(令和8年9月1日(火曜日))",
+    "source": "財務省",
+    "published_at": "Mon, 07 Sep 2026 18:15:00 +0900",
+    "url": "https://www.mof.go.jp/public_relations/conference/my20260901.html",
+    "summary": ""
+  },
+  {
+    "title": "製造たばこの小売定価の認可",
+    "source": "財務省",
+    "published_at": "Mon, 07 Sep 2026 12:00:00 +0900",
+    "url": "https://www.mof.go.jp/policy/tab_salt/topics/kouriteika.html",
+    "summary": ""
+  },
+  {
+    "title": "令和９年度税制改正要望",
+    "source": "財務省",
+    "published_at": "Mon, 07 Sep 2026 11:00:00 +0900",
+    "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/index.html",
+    "summary": ""
+  },
+  {
+    "title": "国の災害用備蓄食品の有効活用の取組みについて",
+    "source": "財務省",
+    "published_at": "Mon, 07 Sep 2026 10:00:00 +0900",
+    "url": "https://www.mof.go.jp/application-contact/procurement/20211005180654.html",
+    "summary": ""
+  },
+  {
+    "title": "電波法施行令の一部を改正する政令案に対する意見募集",
+    "source": "e-Gov 意見募集全件",
+    "published_at": "2026-09-04T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210770&Mode=0",
+    "summary": "案の公示日：2026/09/05<br />受付締切日時：2026/10/10 00:00<br />カテゴリー：電気通信<br />問合せ先（所管省庁・部局名等）：総務省情報流通行政局放送業務課\n電話：03-5253-5809<br />"
+  },
+  {
+    "title": "国民健康保険法施行規則等の一部を改正する省令案に関する御意見の募集について",
+    "source": "e-Gov 意見募集全件",
+    "published_at": "2026-09-04T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260179&Mode=0",
+    "summary": "案の公示日：2026/09/05<br />受付締切日時：2026/10/04 23:59<br />カテゴリー：社会保険<br />問合せ先（所管省庁・部局名等）：厚生労働省保険局高齢者医療課\n電話：03-5253-1111（内線3199）<br />"
+  },
+  {
+    "title": "重要鉱物に係る安定供給確保を図るための取組方針の改正案に対する意見公募",
+    "source": "e-Gov 意見募集全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320018&Mode=0",
+    "summary": "案の公示日：2026/09/04<br />受付締切日時：2026/10/04 23:59<br />カテゴリー：行政手続<br />問合せ先（所管省庁・部局名等）：製造産業局鉱物課03‐3501‐9918<br />"
+  },
+  {
+    "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく、航空機の部品に係る安定供給確保を図るための取組方針（案）に関する意見の公募について",
+    "source": "e-Gov 意見募集全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320013&Mode=0",
+    "summary": "案の公示日：2026/09/04<br />受付締切日時：2026/10/05 12:00<br />カテゴリー：その他<br />問合せ先（所管省庁・部局名等）：経済産業省製造産業局航空機武器産業課<br />"
+  },
+  {
+    "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく、蓄電池に係る安定供給確保を図るための取組方針の改正案に対する意見の公募について",
+    "source": "e-Gov 意見募集全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320021&Mode=0",
+    "summary": "案の公示日：2026/09/04<br />受付締切日時：2026/10/05 00:00<br />カテゴリー：その他<br />問合せ先（所管省庁・部局名等）：経済産業省商務情報政策局電池産業課<br />"
+  },
+  {
+    "title": "児童福祉法施行規則及びこども家庭庁の所管する法律の規定に基づく立入検査等の際に携帯する職員の身分を示す証明書の様式の特例に関する内閣府令の一部を改正する内閣府令案に関する御意見の募集について",
+    "source": "e-Gov 結果公示全件",
+    "published_at": "2026-09-06T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=141000231&Mode=1",
+    "summary": "結果の公示日：2026/09/07<br />案の公示日：2026/07/21<br />受付締切日時：2026/08/20 23:59<br />命令等の公布日：2026/09/07<br />提出意見数：6<br />カテゴリー：社会福祉<br />問合せ先（所管省庁・部局名等）：こども家庭庁支援局虐待防止対策課<br />"
+  },
+  {
+    "title": "「社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する政令案に関する御意見の募集」の結果について",
+    "source": "e-Gov 結果公示全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=495260032&Mode=1",
+    "summary": "結果の公示日：2026/09/04<br />案の公示日：2026/04/27<br />受付締切日時：2026/05/26 18:00<br />命令等の公布日：2026/09/04<br />提出意見数：6<br />カテゴリー：社会保険<br />問合せ先（所管省庁・部局名等）：厚生労働省年金局年金課<br />"
+  },
+  {
+    "title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する省令案に関する御意見の募集の結果について",
+    "source": "e-Gov 結果公示全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=495260033&Mode=1",
+    "summary": "結果の公示日：2026/09/04<br />案の公示日：2026/04/27<br />受付締切日時：2026/05/26 18:00<br />命令等の公布日：2026/09/04<br />提出意見数：7<br />カテゴリー：社会保険<br />問合せ先（所管省庁・部局名等）：厚生労働省年金局事業管理課<br />"
+  },
+  {
+    "title": "御岳登山鉄道株式会社の鉄道事業の旅客運賃上限変更認可について",
+    "source": "e-Gov 結果公示全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=155260813&Mode=1",
+    "summary": "結果の公示日：2026/09/04<br />案の公示日：2026/06/15<br />受付締切日時：2026/06/30 00:00<br />命令等の公布日：<br />提出意見数：0<br />カテゴリー：陸運<br />問合せ先（所管省庁・部局名等）：国土交通省関東運輸局鉄道部監理課意見募集担当（電話番号０４５－２１１－７２３９）<br />"
+  },
+  {
+    "title": "「消費者保護ルールの更なる適正化とＤＸ時代への対応の在り方」に係る一次答申（案）に対する意見募集の結果",
+    "source": "e-Gov 結果公示全件",
+    "published_at": "2026-09-03T15:00:Z",
+    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=145210728&Mode=1",
+    "summary": "結果の公示日：2026/09/04<br />案の公示日：2026/07/01<br />受付締切日時：2026/07/31 00:00<br />命令等の公布日：<br />提出意見数：88<br />カテゴリー：電気通信<br />問合せ先（所管省庁・部局名等）：総務省総合通信基盤局電気通信事業部料金サービス課消費者契約適正化推進室\n電話：03-5253-5488<br />"
+  }
+]

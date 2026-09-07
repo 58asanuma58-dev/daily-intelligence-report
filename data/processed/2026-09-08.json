@@ -1,0 +1,1306 @@
+{
+  "report_date": "2026-09-08",
+  "generated_at": "2026-09-08T08:42:37+09:00",
+  "target_period_hours": 48,
+  "stats": {
+    "raw_articles": 60,
+    "period_excluded": 27,
+    "articles_before_grouping": 33,
+    "story_groups": 26,
+    "duplicates_merged": 7,
+    "source_success": 12,
+    "source_failures": 0
+  },
+  "fetch_errors": [],
+  "articles": [
+    {
+      "id": "4a9bec093f80213c",
+      "title": "気象特別警報・警報・注意報",
+      "source": "JMA extra",
+      "published_at": "2026-09-07T22:49:18Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260907224920_0_VPWW53_450000.xml",
+      "summary": "宮崎県の気象警報・注意報として、南部平野部と北部平野部では強風に注意するよう呼びかけています。県内全域では高波にも注意が必要とされていますが、発表日時や警報・注意報の具体的な区分、対象期間は資料に記載されていません。",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "気象",
+        "警報",
+        "注意報"
+      ],
+      "duplicate_group": "e699963166de",
+      "is_watchlist": true,
+      "duplicate_count": 7,
+      "duplicate_sources": [
+        "JMA extra",
+        "JMA regular"
+      ],
+      "related_articles": [
+        {
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "source": "JMA regular",
+          "published_at": "2026-09-07T23:40:52Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907234056_0_VPWS50_010000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "source": "JMA regular",
+          "published_at": "2026-09-07T23:30:52Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907233056_0_VPWS50_010000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "source": "JMA regular",
+          "published_at": "2026-09-07T23:20:54Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907232058_0_VPWS50_010000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "source": "JMA regular",
+          "published_at": "2026-09-07T23:10:51Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231055_0_VPWS50_010000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｈ２７）",
+          "source": "JMA extra",
+          "published_at": "2026-09-07T23:11:08Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231109_0_VPWW54_190000.xml"
+        },
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-07T22:49:18Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907224920_0_VPWW53_450000.xml"
+        },
+        {
+          "title": "気象警報・注意報（Ｈ２７）",
+          "source": "JMA extra",
+          "published_at": "2026-09-07T22:49:18Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907224920_0_VPWW54_450000.xml"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "multiple_sources": 2,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "many_duplicates": -1
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "気象警報",
+          "特別警報"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "9b57bb9511c72783",
+      "title": "地上実況図",
+      "source": "JMA regular",
+      "published_at": "2026-09-07T23:05:39Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260907230600_0_VZSA50_010000.xml",
+      "summary": "気象庁の「地上実況図」が掲載されています。資料にはタイトル以外の天気図、観測時刻、気圧配置、前線や台風などの具体的な気象情報が含まれておらず、どの地域でどのような現象が起きているかは確認できません。",
+      "category": "Weather",
+      "importance_score": 8,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "a55c3bc0d349",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "JMA regular"
+      ],
+      "related_articles": [
+        {
+          "title": "地上実況図",
+          "source": "JMA regular",
+          "published_at": "2026-09-07T23:05:39Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907230600_0_VZSA50_010000.xml"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "f84a8ee663eb6eb0",
+      "title": "気象特別警報・警報・注意報",
+      "source": "JMA extra",
+      "published_at": "2026-09-07T23:11:08Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231109_0_VPWW53_190000.xml",
+      "summary": "山梨県では、東部と富士五湖地域で土砂災害に注意するよう呼びかけています。また、県内全域で落雷への注意も求めています。資料には発表日時、警戒の有効期間、降雨量や危険度などの詳細は記載されていません。",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "気象",
+        "警報",
+        "注意報"
+      ],
+      "duplicate_group": "848821dc1554",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "JMA extra"
+      ],
+      "related_articles": [
+        {
+          "title": "気象特別警報・警報・注意報",
+          "source": "JMA extra",
+          "published_at": "2026-09-07T23:11:08Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231109_0_VPWW53_190000.xml"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "特別警報"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "bc54c6e0fc9c7bcd",
+      "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+      "source": "JMA extra",
+      "published_at": "2026-09-07T23:10:35Z",
+      "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231036_0_VPWW61_190000.xml",
+      "summary": "気象庁は、山梨県を対象に雷注意報と濃霧注意報を発表しています。山梨県では、急に強い雨が降る可能性や落雷に注意するよう呼びかけています。資料には、注意報の発表時刻や解除見込み、濃霧の具体的な対象地域などは記載されていません。",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "気象",
+        "警報",
+        "注意報"
+      ],
+      "duplicate_group": "1be1b018315b",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "JMA extra"
+      ],
+      "related_articles": [
+        {
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "source": "JMA extra",
+          "published_at": "2026-09-07T23:10:35Z",
+          "url": "https://www.data.jma.go.jp/developer/xml/data/20260907231036_0_VPWW61_190000.xml"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "気象警報"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "073b13b14ae0138b",
+      "title": "Supporting independent journalism in Ukraine",
+      "source": "OpenAI",
+      "published_at": "2026-09-07T00:00:00Z",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "summary": "OpenAI、AIRPPU、WAN-IFRAは2026年9月7日、紛争下にあるウクライナの独立系報道機関を支援するAIプログラムを発表しました。研修「Newsroom AI Masterclass」と実践支援「Newsroom AI Catalyst」を実施し、10の報道機関に導入計画策定や試験運用を支援するほか、参加組織へOpenAI APIのクレジットを提供します。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "ai"
+      ],
+      "duplicate_group": "dc6b9de0cc11",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "Supporting independent journalism in Ukraine",
+          "source": "OpenAI",
+          "published_at": "2026-09-07T00:00:00Z",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "e0f75446731d598c",
+      "title": "An Alien Mind",
+      "source": "OpenAI",
+      "published_at": "2026-09-06T09:00:00Z",
+      "url": "https://openai.com/index/an-alien-mind",
+      "summary": "OpenAIのチーフサイエンティスト、ヤクブ・パチョッキ氏は、2026年9月6日付の記事で、AIの急速な能力向上とアラインメントの難しさを論じた。2023年の推論モデル研究から3年で、AIはコンピューター操作や研究を担い、今後は再帰的自己改善でさらに能力が飛躍する可能性があるとし、技術的対策に加えて国際協調や広範な介入が必要だと述べている。本文は途中で途切れており、全体の結論や具体策の詳細は不明である。",
+      "category": "AI / Technology",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [
+        "ai"
+      ],
+      "duplicate_group": "6491958b01b2",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "An Alien Mind",
+          "source": "OpenAI",
+          "published_at": "2026-09-06T09:00:00Z",
+          "url": "https://openai.com/index/an-alien-mind"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "3784d7aba9718af9",
+      "title": "Research acceleration: The view inside OpenAI",
+      "source": "OpenAI",
+      "published_at": "2026-09-06T08:00:00Z",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "OpenAIは2026年9月6日、コーディングエージェントが社内のAI研究を加速させているとの分析を公表した。人間の指示で数日かかる定義済み研究課題を処理する「自動化された研究インターン」の目標を同年9月に達成し、2028年3月までに自動AI研究者の実現へ大きく前進したと説明している。研究者はエージェントを並行利用し、コード作成と実験を増やしているが、優先順位や結果の評価、開発の継続・停止・展開の判断は人間が担っている。",
+      "category": "AI / Technology",
+      "importance_score": 3,
+      "relevance_score": 0,
+      "keywords": [
+        "ai"
+      ],
+      "duplicate_group": "6e6e688fba2f",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "OpenAI"
+      ],
+      "related_articles": [
+        {
+          "title": "Research acceleration: The view inside OpenAI",
+          "source": "OpenAI",
+          "published_at": "2026-09-06T08:00:00Z",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "7c2fd573a87bf90f",
+      "title": "行政機関18万人を支える「源内」 わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-07T23:00:00Z",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html",
+      "summary": "デジタル庁は、AWSのGenUを基盤にした生成AI環境「源内」をガバメントクラウド上で開発し、約18万人の行政職員への展開を進めています。AWSを中核にGoogle CloudやAzureも使うマルチクラウド構成で、1〜2人のインフラ担当者が運用し、JWT認証、通信先制限、AWSアカウント制限など三つの境界で安全性を確保しています。",
+      "category": "AI / Technology",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "生成ai"
+      ],
+      "duplicate_group": "c7fa5ccb7e41",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "行政機関18万人を支える「源内」 わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-07T23:00:00Z",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "AI Policy and Products"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "生成ai"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "9461533d43315c75",
+      "title": "初回正答率の向上で「対話の往復」削減 Meta「Muse Spark 1.3」の推論強化と活用ポイント",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-07T23:00:00Z",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html",
+      "summary": "Metaは2026年9月2日、エージェント処理とコーディング性能を強化したAIモデル「Muse Spark 1.3」を発表しました。最大100万トークンの文脈と画像・動画・文書の直接処理に対応し、ベンチマークではDeepSWE v1.1が75.4％、Terminal-Bench 2.1が88.8％でした。API料金は、製品改善利用を含む版が入力0.10ドル、商用版が1.25ドルなど、100万トークン単位で設定されています。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "579322b69a7b",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "初回正答率の向上で「対話の往復」削減 Meta「Muse Spark 1.3」の推論強化と活用ポイント",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-07T23:00:00Z",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "169ccccbb1a41c67",
+      "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-07T22:02:55Z",
+      "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/",
+      "summary": "Insilico Medicineは2026年9月7日、AI設計の特発性肺線維症治療薬候補レントセルチブについて、6種類の血中タンパク質ベースの老化時計すべてで生物学的年齢が低下したと発表しました。第2a相試験に参加した42人の血清を再解析し、30mgを1日2回投与した群では4週時点に約3〜4年、時計によって最大約6年の低下がみられました。ただし 、対象数と観察期間が限られ、老化への直接作用は未確認です。",
+      "category": "AI / Technology",
+      "importance_score": 7,
+      "relevance_score": 0,
+      "keywords": [
+        "生成ai"
+      ],
+      "duplicate_group": "b91fe798da6c",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-07T22:02:55Z",
+          "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "fcd9773f828f1110",
+      "title": "Googleの自動化ツール「Workspace Studio」とは？ 他ツールとの違いと活用法",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-07T22:00:00Z",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/",
+      "summary": "Google Workspace Studioは、Geminiとの対話でGmail、Google Chat、フォーム、ドライブ、スプレッドシートなどをまたぐ業務フローをノーコードで作る自動化ツールです。紹介された実例では、毎朝8時に未読メールを要約してChatへ通知し、問い合わせへの回答案を数分で作成し、調査からスライド生成までを約20分で進めています。法人向け対象エディションでは標準提供ですが、管理者の有効化が必要な場合があります。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "55f9cd59d6fd",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "Googleの自動化ツール「Workspace Studio」とは？ 他ツールとの違いと活用法",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-07T22:00:00Z",
+          "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "d103894bab8757f3",
+      "title": "中国新興自動車メーカーが取り組むAIアーキテクチャ「LBM」は本流となるか",
+      "source": "ITmedia AI＋",
+      "published_at": "2026-09-07T22:00:00Z",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html",
+      "summary": "中国の新興自動車メーカーなどが、自動運転やロボットの行動を生成する「LBM（大規模行動モデル）」を採用し始めています。LBMはE2E方式に未来状態の予測、環境変化の推論、行動選択の最適化を組み合わせる概念で、Xpengは2 026年4月24日にLBMを反映した自動運転システム「VLA 2.0」の量産開始を発表しました。NIO、Li Auto、Xiaomiも部分的な実用化を進めています。",
+      "category": "AI / Technology",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "ac9954c34c7f",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "ITmedia AI＋"
+      ],
+      "related_articles": [
+        {
+          "title": "中国新興自動車メーカーが取り組むAIアーキテクチャ「LBM」は本流となるか",
+          "source": "ITmedia AI＋",
+          "published_at": "2026-09-07T22:00:00Z",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "dece76eb174dc76f",
+      "title": "自転車・地域公共交通連携促進セミナーの開催〜自転車でつながる公共交通〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-06T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000544.html",
+      "summary": "国土交通省は2026年9月14日10時30分から11時30分まで、自転車と地域公共交通の連携を扱うオンラインセミナーをMicrosoft Teamsで開催します。 第3次自転車活用推進計画に基づく施策のほか、伊勢志摩のサイクルトレイン、しまなみ海道の観光開発、新潟県湯沢町や愛媛県の事例を紹介します。参加は無料で、申込期限は9月10日17時です。",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "ec6380691d41",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "自転車・地域公共交通連携促進セミナーの開催〜自転車でつながる公共交通〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-06T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/sogo12_hh_000544.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
+    {
+      "id": "9f4c2fddb6458edc",
+      "title": "令和８年８月千葉豪雨により被災した河川・道路等の迅速な復旧を支援〜設計図書の簡素化や書面査定の上限額引上げにより、災害査定を効率化します〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-06T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/mizukokudo06_hh_000356.html",
+      "summary": "国土交通省は、2026年8月の千葉豪雨で被災した千葉県と千葉市の河川・道路などの早期復旧に向け、災害査定の効率化を適用すると通知しました。既存地図や航空写真を使って設計図書を簡素化し、現地確認を省く机上査定の上限額を、千葉県は通常の1,000万円未満から8,000万円以下、千葉市は1億400万円以下に引き上げます。",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "28e6b1462afa",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "令和８年８月千葉豪雨により被災した河川・道路等の迅速な復旧を支援〜設計図書の簡素化や書面査定の上限額引上げにより、災害査定を効率化します〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-06T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/mizukokudo06_hh_000356.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
+    {
+      "id": "7d7a6974285b1f5f",
+      "title": "高速道路での逆走対策に関する有識者委員会（第９回）の開催〜逆走事案を分析する等により今後の効果的な逆走対策を議論します〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-06T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/road01_hh_002139.html",
+      "summary": "国土交通省は2026年9月9日15時から17時まで、東京都千代田区の経済産業省別館で高速道路の逆走対策に関する有識者委員会の第9回会合を開催します。逆走の発生状況、これまでの対策、新技術の活用などを議論し、資料と議事概要は会合後に公開します。報道関係者の傍聴申込期限は9月8日17時です。",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 3,
+      "keywords": [],
+      "duplicate_group": "3f09e0f948a1",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "高速道路での逆走対策に関する有識者委員会（第９回）の開催〜逆走事案を分析する等により今後の効果的な逆走対策を議論します〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-06T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/road01_hh_002139.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {
+        "medium_priority": 2,
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [
+          "経済"
+        ],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
+    {
+      "id": "bf30504c36341404",
+      "title": "「鉄道脱炭素施設等実装調査」を実施する鉄軌道事業者等を募集します！〜鉄軌道事業者等によるカーボンニュートラル実現に向けた取組を促進〜",
+      "source": "国土交通省プレスリリース",
+      "published_at": "2026-09-06T20:00:00Z",
+      "url": "http://www.mlit.go.jp/report/press/tetsudo07_hh_000328.html",
+      "summary": "国土交通省は、鉄道分野の脱炭素化に向けた「鉄道脱炭素施設等実装調査」を行う鉄軌道事業者などを募集します。対象は鉄軌道事業者と、所有施設を使用させる者で、脱炭素化に資する施設整備などの調査・検討が補助対象です。補助率は2分の1 で、募集期間は2026年9月7日から9月18日17時まで、選定は関連予算の範囲内で行われます。",
+      "category": "Real Estate",
+      "importance_score": 3,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "f23f519d8cc7",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "国土交通省プレスリリース"
+      ],
+      "related_articles": [
+        {
+          "title": "「鉄道脱炭素施設等実装調査」を実施する鉄軌道事業者等を募集します！〜鉄軌道事業者等によるカーボンニュートラル実現に向けた取組を促進〜",
+          "source": "国土交通省プレスリリース",
+          "published_at": "2026-09-06T20:00:00Z",
+          "url": "http://www.mlit.go.jp/report/press/tetsudo07_hh_000328.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "国土交通省"
+        ]
+      }
+    },
+    {
+      "id": "c9688c4495be09eb",
+      "title": "コール市場残高（8月）",
+      "source": "日本銀行",
+      "published_at": "2026-09-07T06:00:00Z",
+      "url": "http://www.boj.or.jp/statistics/market/short/call/call.xlsx",
+      "summary": "日本銀行が「コール市場残高（8月）」という統計資料を掲載しています。しかし、提示された資料本文には残高の金額、前月との差、対象となる取引区分、集計基準日などの数値や説明が記載されていません。そのため、8月のコール市場残高が増えたのか減ったのか、具体的な規模や市場動向は資料だけでは確認できません。",
+      "category": "Economy",
+      "importance_score": 8,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "959da1557a85",
+      "is_watchlist": true,
+      "duplicate_count": 2,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "コール市場残高（8月）",
+          "source": "日本銀行",
+          "published_at": "2026-09-07T06:00:00Z",
+          "url": "http://www.boj.or.jp/statistics/market/short/call/call.xlsx"
+        },
+        {
+          "title": "マネタリーベースと日本銀行の取引（8月）",
+          "source": "日本銀行",
+          "published_at": "2026-09-06T23:50:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/other/mbt/mbt2608.pdf"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Central Bank Policy"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "6097ee4b4b5e2c55",
+      "title": "消費活動指数",
+      "source": "日本銀行",
+      "published_at": "2026-09-07T05:00:00Z",
+      "url": "http://www.boj.or.jp/research/research_data/cai/index.htm",
+      "summary": "日本銀行は、個人消費を把握する月次・四半期の分析データ「消費活動指数」を公表しています。財・サービスの販売や供給統計を基に、名目値と実質値、旅行収支調整の有無、形態別内訳などを作成し、2026年9月7日には図表とデータを掲載しました。ただし、提示資料には今回の指数の具体的な数値や前月比は記載されていません。",
+      "category": "Economy",
+      "importance_score": 8,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "3ba2970d43ba",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "消費活動指数",
+          "source": "日本銀行",
+          "published_at": "2026-09-07T05:00:00Z",
+          "url": "http://www.boj.or.jp/research/research_data/cai/index.htm"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Central Bank Policy"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "69f2f2ec024a9ed2",
+      "title": "令和8年台風第24号及び前線による大雨に伴う災害等に対する金融上の措置について（鹿児島県）",
+      "source": "日本銀行",
+      "published_at": "2026-09-07T02:00:00Z",
+      "url": "http://www.boj.or.jp/about/bcp/fso/fso260907a.pdf",
+      "summary": "九州財務局鹿児島財務事務所と日本銀行鹿児島支店は2026年9月7日、台風第24号と前線による大雨で災害救助法が適用された鹿児島県内の被災者に向け、金融機関などへ特別措置を要請しました。通帳や印鑑を失った場合の預金払戻し、期限前解約 、融資や返済猶予、保険金の迅速な支払い、保険料の猶予などを求めています。",
+      "category": "Weather",
+      "importance_score": 10,
+      "relevance_score": 0,
+      "keywords": [
+        "台風",
+        "大雨"
+      ],
+      "duplicate_group": "1d255276a201",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "令和8年台風第24号及び前線による大雨に伴う災害等に対する金融上の措置について（鹿児島県）",
+          "source": "日本銀行",
+          "published_at": "2026-09-07T02:00:00Z",
+          "url": "http://www.boj.or.jp/about/bcp/fso/fso260907a.pdf"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Central Bank Policy",
+        "Severe Weather"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "5665c76242935820",
+      "title": "日本銀行の対政府取引（8月）",
+      "source": "日本銀行",
+      "published_at": "2026-09-06T23:50:00Z",
+      "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2608.pdf",
+      "summary": "日本銀行が公表した2026年8月の対政府取引では、政府短期証券などの引受・買入・売却は各項目で残高、月中取引とも0でした。一方、国債整理基金との長期国債売現先取引は、月中の売却額が3,731億4,800万円、買戻し額が2,2 43億6,000万円で、月末残高は3,737億3,800万円でした。",
+      "category": "Japan",
+      "importance_score": 10,
+      "relevance_score": 0,
+      "keywords": [
+        "日本",
+        "政府"
+      ],
+      "duplicate_group": "400eece42d4f",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "日本銀行"
+      ],
+      "related_articles": [
+        {
+          "title": "日本銀行の対政府取引（8月）",
+          "source": "日本銀行",
+          "published_at": "2026-09-06T23:50:00Z",
+          "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2608.pdf"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Central Bank Policy",
+        "Financial Markets"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "f4a6e4f332fd0ee7",
+      "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年8月31日(月曜日))",
+      "source": "財務省",
+      "published_at": "2026-09-07T09:15:00Z",
+      "url": "https://www.mof.go.jp/public_relations/conference/my20260831.html",
+      "summary": "片山財務相は2026年8月31日の会見で、G20・G7で供給網の強靱化、重要鉱物、AIの金融リスク、ウクライナ支援などを議論したと説明しました。日本については複数年度の成長投資、債務残高の対GDP比低下、2029年度からの所得連動給付や、それまでの飲食料品消費税率引下げを説明し、米国のベッセント財務長官とは秩序ある円相場と日米協調の重要性を確認しました。ADB総裁選では神田総裁が全会一致で再選されました。",
+      "category": "Tax / Law",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [],
+      "duplicate_group": "ec9fed0669b2",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年8月31日(月曜日))",
+          "source": "財務省",
+          "published_at": "2026-09-07T09:15:00Z",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260831.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "c35242edb0bea1e2",
+      "title": "片山財務大臣兼内閣府特命担当大臣、植田日本銀行総裁共同記者会見の概要(令和8年9月1日(火曜日))",
+      "source": "財務省",
+      "published_at": "2026-09-07T09:15:00Z",
+      "url": "https://www.mof.go.jp/public_relations/conference/my20260901.html",
+      "summary": "片山財務相と植田日銀総裁は2026年9月1日、G20で途上国債務、世界的な経常不均衡、金融リテラシーと詐欺対策を議論したと説明しました。日本は債務再編の迅速化、債務データ共有への全メンバー参加、FATF基準の着実な実施を主張し、植田総裁は金融政策の適切なコミュニケーションの重要性を報告しました。議長声明には中国が重要鉱物、供給網 、債務再編などの一部に賛成しなかったことが明記されました。",
+      "category": "Economy",
+      "importance_score": 10,
+      "relevance_score": 3,
+      "keywords": [
+        "日本銀行"
+      ],
+      "duplicate_group": "d12364531f96",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣、植田日本銀行総裁共同記者会見の概要(令和8年9月1日(火曜日))",
+          "source": "財務省",
+          "published_at": "2026-09-07T09:15:00Z",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260901.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Central Bank Policy",
+        "Financial Markets"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "金融政策"
+        ],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    },
+    {
+      "id": "c8d657fee1ca148a",
+      "title": "製造たばこの小売定価の認可",
+      "source": "財務省",
+      "published_at": "2026-09-07T03:00:00Z",
+      "url": "https://www.mof.go.jp/policy/tab_salt/topics/kouriteika.html",
+      "summary": "財務省は、2026年9月4 日認可分を含む製造たばこの小売定価認可情報を、PDF資料へのリンク一覧として公表しています。掲載対象は2 026年8月から2025年7月までの認可・変更認可で、日付ごとに複数の資料があります。ただし、提示された本文には銘柄名、改定後の小売定価、改定幅などの個別内容が含まれておらず、価格の具体的な変更は確認できません。",
+      "category": "Tax / Law",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "581d64c67fd5",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "製造たばこの小売定価の認可",
+          "source": "財務省",
+          "published_at": "2026-09-07T03:00:00Z",
+          "url": "https://www.mof.go.jp/policy/tab_salt/topics/kouriteika.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "財務省"
+        ]
+      }
+    },
+    {
+      "id": "13dd6d16ae0d495b",
+      "title": "令和９年度税制改正要望",
+      "source": "財務省",
+      "published_at": "2026-09-07T02:00:00Z",
+      "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/index.html",
+      "summary": "財務省は、2027年度税制改正要望について、各府省庁が2026年8月31日付で提出した要望の単純集計を公表しています。資料には全府省庁版の要望事項一覧表と見直し事項一覧表が用意されていますが、提示された本文には要望の件数、制度別の内容、金額や税率などの具体的な内訳は記載されていません 。",
+      "category": "Tax / Law",
+      "importance_score": 10,
+      "relevance_score": 4,
+      "keywords": [
+        "税制",
+        "税"
+      ],
+      "duplicate_group": "4f21089db6c7",
+      "is_watchlist": true,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "令和９年度税制改正要望",
+          "source": "財務省",
+          "published_at": "2026-09-07T02:00:00Z",
+          "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/index.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [
+        "Tax and Legal Changes"
+      ],
+      "score_details": {
+        "reliable_source": 3,
+        "watchlist": 3,
+        "recent_24h": 2,
+        "important_keyword": 2,
+        "new_topic": 2
+      },
+      "relevance_details": {
+        "high_priority": 3,
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [
+          "税制改正"
+        ],
+        "medium_priority": [],
+        "low_priority": [
+          "財務省"
+        ]
+      }
+    },
+    {
+      "id": "9ba56e33586365cd",
+      "title": "国の災害用備蓄食品の有効活用の取組みについて",
+      "source": "財務省",
+      "published_at": "2026-09-07T01:00:00Z",
+      "url": "https://www.mof.go.jp/application-contact/procurement/20211005180654.html",
+      "summary": "財務省は、入れ替えで役割を終えた国の災害用備蓄食品を、食品ロス削減と生活困窮者支援のためフードバンクや子ども食堂などへ提供します。希望団体は申込様式をメールで提出し、提供は先着順で、申込期限前に数量へ達する場合があります。提供先には採否をメールで通知し、引き渡し時期は別途協議しますが、提示資料には食品の種類や数量、申込期限は記載されていません。",
+      "category": "Tax / Law",
+      "importance_score": 5,
+      "relevance_score": 1,
+      "keywords": [],
+      "duplicate_group": "6b170a6aee8c",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "財務省"
+      ],
+      "related_articles": [
+        {
+          "title": "国の災害用備蓄食品の有効活用の取組みについて",
+          "source": "財務省",
+          "published_at": "2026-09-07T01:00:00Z",
+          "url": "https://www.mof.go.jp/application-contact/procurement/20211005180654.html"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "recent_24h": 2
+      },
+      "relevance_details": {
+        "low_priority": 1
+      },
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": [
+          "財務省"
+        ]
+      }
+    },
+    {
+      "id": "e9899d8d8c5a0b12",
+      "title": "児童福祉法施行規則及びこども家庭庁の所管する法律の規定に基づく立入検査等の際に携帯する職員の身分を示す証明書の様式の特例に関する内閣府令の一部を改正する内閣府令案に関する御意見の募集について",
+      "source": "e-Gov 結果公示全件",
+      "published_at": "2026-09-06T15:00:00Z",
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=141000231&Mode=1",
+      "summary": "こども家庭庁は、児童福祉法に基づく立入検査などで職員が携帯する身分証明書の様式に関する内閣府令案について、パブリックコメントの結果を2026年9月7日に公示しました。案は7月21日に公示され、8月20日までに6件の意見が提出されましたが、意見を踏まえた案の修正はなく、同日付で令和8年内閣府令第75号として公布されました。",
+      "category": "Tax / Law",
+      "importance_score": 5,
+      "relevance_score": 0,
+      "keywords": [
+        "法律"
+      ],
+      "duplicate_group": "2e39d9ed7abd",
+      "is_watchlist": false,
+      "duplicate_count": 1,
+      "duplicate_sources": [
+        "e-Gov 結果公示全件"
+      ],
+      "related_articles": [
+        {
+          "title": "児童福祉法施行規則及びこども家庭庁の所管する法律の規定に基づく立入検査等の際に携帯する職員の身分を示す証明書の様式の特例に関する内閣府令の一部を改正する内閣府令案に関する御意見の募集について",
+          "source": "e-Gov 結果公示全件",
+          "published_at": "2026-09-06T15:00:00Z",
+          "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=141000231&Mode=1"
+        }
+      ],
+      "summary_method": "copilot",
+      "watchlist_topics": [],
+      "score_details": {
+        "reliable_source": 3,
+        "new_topic": 2
+      },
+      "relevance_details": {},
+      "matched_interest_keywords": {
+        "high_priority": [],
+        "medium_priority": [],
+        "low_priority": []
+      }
+    }
+  ],
+  "changes": [
+    {
+      "type": "TREND UP",
+      "theme": "Severe Weather",
+      "yesterday": "2件",
+      "today": "5件",
+      "change": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "type": "TREND UP",
+      "theme": "注意報",
+      "yesterday": "1件",
+      "today": "3件",
+      "change": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "type": "TREND UP",
+      "theme": "気象",
+      "yesterday": "1件",
+      "today": "3件",
+      "change": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "生成ai",
+      "yesterday": "0件",
+      "today": "2件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "AI Policy and Products",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "TREND UP",
+      "theme": "AI / Technology",
+      "yesterday": "1件",
+      "today": "3件",
+      "change": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "type": "IMPORTANCE UP",
+      "theme": "AI / Technology",
+      "yesterday": "重要度 3",
+      "today": "重要度 5",
+      "change": "テーマ内の最高重要度が上昇しました。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "Real Estate",
+      "yesterday": "0件",
+      "today": "4件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "Central Bank Policy",
+      "yesterday": "0件",
+      "today": "5件",
+      "change": "前回履歴になかったテーマです。"
+    },
+    {
+      "type": "NEW TOPIC",
+      "theme": "台風",
+      "yesterday": "0件",
+      "today": "1件",
+      "change": "前回履歴になかったテーマです。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "TREND UP",
+      "title": "Severe Weather",
+      "detail": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "label": "TREND UP",
+      "title": "注意報",
+      "detail": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "label": "TREND UP",
+      "title": "気象",
+      "detail": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "生成ai",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "AI Policy and Products",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "TREND UP",
+      "title": "AI / Technology",
+      "detail": "同一テーマの記事数が増加しました。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "Real Estate",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "Central Bank Policy",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "NEW TOPIC",
+      "title": "台風",
+      "detail": "前回履歴になかったテーマです。"
+    },
+    {
+      "label": "MULTIPLE SOURCES",
+      "title": "気象特別警報・警報・注意報",
+      "detail": "7件・2情報源の関連記事があります。"
+    }
+  ]
+}
