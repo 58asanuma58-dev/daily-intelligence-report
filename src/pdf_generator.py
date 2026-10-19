@@ -11,6 +11,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 from xhtml2pdf import pisa
+from xhtml2pdf.config.resources import ResourceAccessPolicy
 
 
 PDF_FONT = "ReportJP"
@@ -85,6 +86,12 @@ def generate_pdf(html_path: Path, pdf_path: Path) -> None:
     """HTMLをPDF化し、正常性を確認してページ番号を追加する。"""
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
     _register_pdf_font(html_path)
+    # HTMLのディレクトリに加え、同梱フォントのディレクトリを許可する。
+    # プロジェクト全体や任意のローカルファイルへのアクセスは許可しない。
+    resource_policy = ResourceAccessPolicy(
+        base_dir=html_path.resolve().parent,
+        extra_roots=((html_path.parents[2] / "assets" / "fonts").resolve(),),
+    )
 
     with NamedTemporaryFile(
         "wb", suffix=".pdf", dir=pdf_path.parent, delete=False
@@ -96,6 +103,7 @@ def generate_pdf(html_path: Path, pdf_path: Path) -> None:
             encoding="utf-8",
             path=str(html_path.resolve()),
             link_callback=_resolve_resource,
+            resource_policy=resource_policy,
         )
 
     try:
