@@ -52,23 +52,56 @@ def _run_copilot(prompt: str, timeout: int) -> str:
     return completed.stdout.strip()
 
 
-def _parse_response(response: str) -> dict[str, str]:
-    """JSON本体またはJSONコードフェンスから要約辞書を取り出す。"""
-    clean = response.strip()
-    if clean.startswith("```"):
-        clean = re.sub(r"^```(?:json)?\s*|\s*```$", "", clean, flags=re.DOTALL)
-    try:
-        # CLIが要約文中の改行をそのまま返す場合があるため、制御文字だけは許容します。
-        payload = json.loads(clean, strict=False)
-    except json.JSONDecodeError:
-        start, end = clean.find("{"), clean.rfind("}")
-        if start < 0 or end <= start:
-            raise ValueError("要約結果にJSONがありません。")
-        payload = json.loads(clean[start : end + 1], strict=False)
-    summaries = payload.get("summaries", {})
-    if not isinstance(summaries, dict):
-        raise ValueError("要約結果のsummariesが辞書ではありません。")
-    return {str(key): _clean_summary(value) for key, value in summaries.items()}
+def _unique_json_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    """JSONの重複キーを、後勝ちで上書きせずに拒否する。"""
+    result: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError("要約結果のJSONに重複キーがあります。")
+        result[key] = value
+    return result
+
+
+def _parse_response(
+    response: str, expected_ids: set[str] | None = None
+) -> dict[str, str]:
+    """前後の説明やメタデータから、曖昧でない1つの要約JSONを取り出す。"""
+    # CLIはテキスト出力のまま使う。--output-format=jsonのJSONLとは別の形式。
+    # 要約文中の改行は既存の応答との互換性のため許容する。
+    decoder = json.JSONDecoder(strict=False, object_pairs_hook=_unique_json_object)
+    summaries: dict[str, str] | None = None
+    end = 0
+    for match in re.finditer(r"[\[{]", response):
+        if match.start() < end:
+            continue
+        # [INFO]や[出典]のような平文のラベルはJSON配列ではない。
+        # 入れ子・引用符・改行を含む括弧は除外せず、壊れたJSONとして検査する。
+        label = re.match(r'\[[^\W\d_][^\[\]{}"\r\n]*\]', response[match.start():])
+        if label:
+            end = match.start() + label.end()
+            continue
+        try:
+            payload, end = decoder.raw_decode(response, match.start())
+        except json.JSONDecodeError as error:
+            # 壊れた外側のJSONから、内側の断片だけを救済してはいけない。
+            # 公開ログへ応答本文を含めず、解析位置だけを伝える。
+            raise ValueError(f"要約結果のJSONが不正です（位置{error.pos}）。") from error
+        # 配列・入れ子のオブジェクトは全体を消費し、内部の要約を採用しない。
+        if not isinstance(payload, dict) or "summaries" not in payload:
+            continue
+        if summaries is not None:
+            raise ValueError("要約結果に複数のsummariesがあり、採用対象が曖昧です。")
+        candidate = payload["summaries"]
+        if not isinstance(candidate, dict):
+            raise ValueError("要約結果のsummariesが辞書ではありません。")
+        if any(not isinstance(value, str) for value in candidate.values()):
+            raise ValueError("要約結果の値は文字列である必要があります。")
+        if expected_ids is not None and candidate.keys() - expected_ids:
+            raise ValueError("要約結果に今回依頼していない記事IDがあります。")
+        summaries = candidate
+    if summaries is None:
+        raise ValueError("要約結果にトップレベルのsummariesがありません。")
+    return {key: _clean_summary(value) for key, value in summaries.items()}
 
 
 def _valid_japanese_summary(text: str, minimum_chars: int) -> bool:
@@ -127,7 +160,9 @@ def summarize_articles(
                 response = (runner or _run_copilot)(
                     _prompt(pending), int(config.get("timeout_seconds", 300))
                 )
-                summaries.update(_parse_response(response))
+                summaries.update(
+                    _parse_response(response, {str(article["id"]) for article in pending})
+                )
             except Exception as error:
                 last_error = error
                 LOGGER.warning("SUMMARY ATTEMPT %d FAILED: %s", attempt, error)
